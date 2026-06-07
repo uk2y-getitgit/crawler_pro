@@ -1,0 +1,31 @@
+# ── API 키 (절대 올리지 말 것) ──
+project/.env
+
+# ── Python 캐시 ──
+**/__pycache__/
+*.pyc
+*.pyo
+
+# ── 가상환경 ──
+project/venv/
+project/.venv/
+
+# ── 빌드 산출물 ──
+project/dist/
+project/build/
+
+# ── 런타임 데이터 (로컬 전용) ──
+project/results/
+project/data/history.json
+project/logs/
+project/gui_out.log
+project/gui_err.log
+
+# ── 임시 파일 ──
+*.tmp
+*.bak
+project/게시판_일괄등록_템플릿.xlsx
+
+# ── 로컬 원본 데이터 (개인 파일) ──
+site_list*.xlsx
+건축물점검*.xlsx

@@ -1,0 +1,2137 @@
+{
+  "updated_at": "2026-06-06T05:13:52.437478",
+  "results": {
+    "대전광역시": [
+      {
+        "name": "계약정보공개",
+        "url": "https://www.daejeon.go.kr/gyeyak/index.do"
+      },
+      {
+        "name": "발주계획",
+        "url": "https://www.daejeon.go.kr/gyeyak/order/orderList.do?menuFg=A1&cntrtFlag=&upmuGubun=3&menuSeq=5885"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.daejeon.go.kr/gyeyak/bid/bidInList.do?menuFg=B1&cntrtFlag=&upmuGubun=3&menuSeq=5890"
+      },
+      {
+        "name": "계약정보",
+        "url": "https://www.daejeon.go.kr/gyeyak/cntrt/cstnCntrtList.do?menuFg=C1&cntrtFlag=1&menuSeq=5899"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=7176"
+      },
+      {
+        "name": "공보(고시공고)",
+        "url": "https://www.daejeon.go.kr/drh/drhRegulationsList.do?menuSeq=1660"
+      },
+      {
+        "name": "학술용역 활용상황",
+        "url": "https://www.daejeon.go.kr/drh/board/boardNormalList.do?boardId=pla_0005&menuSeq=6869"
+      },
+      {
+        "name": "고시공고",
+        "url": "https://www.daejeon.go.kr/drh/MediaList.do?notiType=NOTI_06&menuSeq=2564"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.daejeon.go.kr/drh/MediaList.do?notiType=NOTI_07&menuSeq=2565"
+      },
+      {
+        "name": "국내판로 및 공공구매지원",
+        "url": "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=7926"
+      },
+      {
+        "name": "중소기업제품 공공구매제도",
+        "url": "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=6864"
+      }
+    ],
+    "논산시": [
+      {
+        "name": "공고/고시",
+        "url": "https://www.nonsan.go.kr/kor/html/sub03/03010201.html"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.nonsan.go.kr/kor/html/sub03/030105.html"
+      },
+      {
+        "name": "계약정보공개",
+        "url": "http://gyeyak.nonsan.go.kr/"
+      },
+      {
+        "name": "공기업특별회계 수의계약 공개",
+        "url": "https://www.nonsan.go.kr/kor/html/sub03/030818.html"
+      }
+    ],
+    "국가철도공단": [
+      {
+        "name": "조달공고",
+        "url": "https://www.kr.or.kr/sub/info.do?m=040203"
+      },
+      {
+        "name": "공지특정공법 심의 절차 일부변경 및 중소기업기술마켓 등록(상시,일괄) 공고",
+        "url": "https://www.kr.or.kr/boardCnts/view.do?boardID=51&boardSeq=1120187"
+      },
+      {
+        "name": "공지수서~광주 복선전철(제2~3공구 우선착공구간)법무사 선정계획 공고",
+        "url": "https://www.kr.or.kr/boardCnts/view.do?boardID=51&boardSeq=1122429"
+      },
+      {
+        "name": "공지천안~청주공항 복선전철(전의~북청주 구간)법무사 선정계획 공고",
+        "url": "https://www.kr.or.kr/boardCnts/view.do?boardID=51&boardSeq=1122428"
+      },
+      {
+        "name": "전자조달",
+        "url": "http://ebid.kr.or.kr/"
+      }
+    ],
+    "국방과학연구소": [
+      {
+        "name": "기술용역/지원",
+        "url": "https://www.add.re.kr/board?menuId=MENU02953"
+      },
+      {
+        "name": "`26년 방위산업기술보호 유공자 포상 신청.추천 공고",
+        "url": "https://www.add.re.kr/board/view?pageNum=1&rowCnt=10&no1=&linkId=5834&menuId=MENU02198"
+      },
+      {
+        "name": "ADD 시설관리단 자회사 노동조합의 교섭요구 사실 공고",
+        "url": "https://www.add.re.kr/board/view?pageNum=1&rowCnt=10&no1=&linkId=5831&menuId=MENU02198"
+      },
+      {
+        "name": "신속시범사업 예비 사업설명회 안내 공고",
+        "url": "https://www.add.re.kr/board/view?pageNum=1&rowCnt=10&no1=&linkId=5827&menuId=MENU02198"
+      }
+    ],
+    "대전지방국토관리청": [
+      {
+        "name": "공고 제2026-74호 관련 기초자료(추가안내)05-21",
+        "url": "https://www.molit.go.kr/drocm/USR/BORD0201/m_16063/DTL.jsp?id=dcmo0401&mode=view&idx=14388"
+      },
+      {
+        "name": "2025-0828청양 운곡-공주 신풍  도로건설공사 재해영향평가*입찰 이전에 반드시 공고문을 확인하시기 바랍니다.\r\n-입찰기간: 2025. 8. 29.(금) 15:00 ~2025. 9. 8.(월) 10:00\r\n-개찰일시: 2025. 9. 8.(월) 11:00",
+        "url": "https://www.molit.go.kr/drocm/USR/tender/m_16067/mng.jsp?ID=32444"
+      },
+      {
+        "name": "입찰안내 더보기",
+        "url": "https://www.molit.go.kr/drocm/USR/tender/m_16067/lst.jsp"
+      }
+    ],
+    "서울지방국토관리청": [
+      {
+        "name": "제2경춘국도(남양주-춘천) 도로건설공사 2공구 건설사업관리용역 평가위원 공개05-28",
+        "url": "https://www.molit.go.kr/srocm/USR/BORD0201/m_13077/DTL.jsp?id=scmo0401&mode=view&idx=17681"
+      },
+      {
+        "name": "제2경춘국도(남양주-춘천) 도로건설공사 1공구 건설사업관리용역 평가위원공개05-27",
+        "url": "https://www.molit.go.kr/srocm/USR/BORD0201/m_13077/DTL.jsp?id=scmo0401&mode=view&idx=17680"
+      },
+      {
+        "name": "업무중복도 공개(건설사업관리용역 종합심사낙찰제 대상사업)05-13",
+        "url": "https://www.molit.go.kr/srocm/USR/BORD0201/m_13077/DTL.jsp?id=scmo0401&mode=view&idx=17670"
+      },
+      {
+        "name": "서울국토청 하도급 계약현황(26년 1분기)04-01",
+        "url": "https://www.molit.go.kr/srocm/USR/BORD0201/m_13561/DTL.jsp?mode=view&idx=180825"
+      },
+      {
+        "name": "서울지방국토관리청 26.1분기 수의계약(해당없음)04-01",
+        "url": "https://www.molit.go.kr/srocm/USR/BORD0201/m_13561/DTL.jsp?mode=view&idx=180824"
+      },
+      {
+        "name": "2023-0323'국지도78호선 김포 운양-하성 도로건설공사' 신규교량(L=49.5m, B=9.95m)에 적용할 '개량형 PSC BEAM 공법' 선정ㅇ '국지도78호선 김포 운양 - 하성 도로건설공사'에 신규교량(L=49.5m, B=9.95m)에 적용할 '개량형 PSC BEAM 공법' 선정\r\n\r\nㅇ 지방하천을 횡단하는 교량으로 하천설계기준을 만족하고, 기존교량(L=47m)의 통수단면에 방해가 되지 않으며, 단경간으로 수위상승을 배제할 수 있는 공법선정\r\n\r\nㅇ 시공성, 경제성, 내구성 측면 등에서 우수한 가설 교량 공법 적용\r\n\r\nㅇ 기타 붙임문서 참고□ 참여자격\r\n\r\n 가. 전문건설업종 면허 등록을 필한 업체로서 입찰서 제출 마감일까지 해당 입찰 참가 자격을 계속 유지 및 공모일 기준으로 국내에 사업장을 두고 있고, 개량형 PSC BEAM 공법 관련 신기술 보유자, 특허권자, 특허 전용·통상 실시권자로서 권리행사에 제한사항이 없고 공법에 대한 소송 및 분쟁에 관련되지 않으며 우리 청(서울지방국토관리청)과 기술 사용협약에 동의하는 업체\r\n\r\n나. 건설 신기술·특허 플랫폼에 등록되어 있는 업체\r\n\r\n다. 본 사업의 필요 최대 경간장 이상을 수행한 경험이 있는 업체 (최대 경간장 49.5m이상 공공기관*의 시공실적증명서 확인 가능한 경우에 한함)\r\n    *「공공기관의 운영에 관한 법률」제4조에 따른 공공기관\r\n\r\n라. 참가제한\r\n  - 제안서 마감일 현재 부정당 업자로 제재 기간 중이거나 부도, 파산, 해산, 영업정지 등의 상태에 있는 업체",
+        "url": "https://www.molit.go.kr/srocm/USR/tender/m_13081/mng.jsp?ID=31376"
+      },
+      {
+        "name": "적격심사 대상자 알림(국지도56호선 파주 금릉-조리 도로건설공사 설계단계 건설사업관리 및 설계VE용역)12-06",
+        "url": "https://www.molit.go.kr/srocm/USR/tender/m_13081/mng.jsp?ID=31223"
+      },
+      {
+        "name": "적격심사 대상자 알림(국지도78호선 연천 군남옥계-연천상리 도로건설공사 문화재지표조사용역)12-06",
+        "url": "https://www.molit.go.kr/srocm/USR/tender/m_13081/mng.jsp?ID=31222"
+      },
+      {
+        "name": "적격심사 대상자 알림(국지도78호선 연천 군남옥계-연천상리 도로건설공사 교통시설안전진단용역)11-25",
+        "url": "https://www.molit.go.kr/srocm/USR/tender/m_13081/mng.jsp?ID=31206"
+      },
+      {
+        "name": "적격심사 대상자 알림(국도37호선 여주 대신-양평 개군 도로건설공사 문화재지표조사용역 외 1건)11-25",
+        "url": "https://www.molit.go.kr/srocm/USR/tender/m_13081/mng.jsp?ID=31205"
+      },
+      {
+        "name": "입찰안내 더보기",
+        "url": "https://www.molit.go.kr/srocm/USR/tender/m_13081/lst.jsp"
+      }
+    ],
+    "원주지방국토관리청": [
+      {
+        "name": "국도6호선 평창 진부-강릉 연곡 도로건설공사 건설사업관리용역 종심제 평가위원 공개05-22",
+        "url": "https://www.molit.go.kr/wrocm/USR/BORD0201/m_15958/DTL.jsp?id=wcmo0401&mode=view&idx=50112"
+      },
+      {
+        "name": "국도46호선 남양주-춘천(제2경춘) 도로건설공사(5공구) 건설사업관리용역 종심제 평가위원 공개05-21",
+        "url": "https://www.molit.go.kr/wrocm/USR/BORD0201/m_15958/DTL.jsp?id=wcmo0401&mode=view&idx=50111"
+      },
+      {
+        "name": "국도46호선 남양주-춘천(제2경춘) 도로건설공사(4공구) 건설사업관리용역 종심제 평가위원 공개05-20",
+        "url": "https://www.molit.go.kr/wrocm/USR/BORD0201/m_15958/DTL.jsp?id=wcmo0401&mode=view&idx=50110"
+      },
+      {
+        "name": "국도46호선 남양주-춘천(제2경춘) 도로건설공사(3공구) 건설사업관리용역 종심제 평가위원 공개05-19",
+        "url": "https://www.molit.go.kr/wrocm/USR/BORD0201/m_15958/DTL.jsp?id=wcmo0401&mode=view&idx=50107"
+      },
+      {
+        "name": "2026-0601[원주지방국토관리청] 하도급 공사계약 현황(2026년 5월)",
+        "url": "https://www.molit.go.kr/wrocm/USR/BORD0201/m_15979/DTL.jsp?mode=view&idx=180849"
+      },
+      {
+        "name": "[원주지방국토관리청] 2026년 1분기 수의계약 현황 게시05-07",
+        "url": "https://www.molit.go.kr/wrocm/USR/BORD0201/m_15979/DTL.jsp?mode=view&idx=180842"
+      },
+      {
+        "name": "[원주지방국토관리청] 하도급 공사계약 현황(2026년 4월)05-06",
+        "url": "https://www.molit.go.kr/wrocm/USR/BORD0201/m_15979/DTL.jsp?mode=view&idx=180840"
+      },
+      {
+        "name": "[원주지방국토관리청] 하도급 공사계약 현황(2026년 3월)04-03",
+        "url": "https://www.molit.go.kr/wrocm/USR/BORD0201/m_15979/DTL.jsp?mode=view&idx=180831"
+      },
+      {
+        "name": "2024-0723[입찰공고]국도42호선 원주 흥업 사제 외 1개소 교차로 개선공사 실시설계용역 건설사업관리(설계단계) 및 설계VE용역세부사항은 공고문 참조",
+        "url": "https://www.molit.go.kr/wrocm/USR/tender/m_15962/mng.jsp?ID=32089"
+      },
+      {
+        "name": "[입찰공고]국도42호선 원주 흥업 사제 외 2개소 교차로 개선공사 소규모 환경영향평가용역07-23",
+        "url": "https://www.molit.go.kr/wrocm/USR/tender/m_15962/mng.jsp?ID=32088"
+      },
+      {
+        "name": "[입찰공고]국도5호선 춘천-화천3  도로건설 소방공사 감리용역07-23",
+        "url": "https://www.molit.go.kr/wrocm/USR/tender/m_15962/mng.jsp?ID=32086"
+      },
+      {
+        "name": "[입찰공고]국도56호선 철원 근남-화천 상서 도로건설공사 지하안전영향평가용역 등 2건07-23",
+        "url": "https://www.molit.go.kr/wrocm/USR/tender/m_15962/mng.jsp?ID=32085"
+      },
+      {
+        "name": "[입찰공고]국도35호선 정선 임계-강릉 왕산 도로건설공사 재해영향평가용역 등 3건07-23",
+        "url": "https://www.molit.go.kr/wrocm/USR/tender/m_15962/mng.jsp?ID=32084"
+      },
+      {
+        "name": "입찰안내 더보기",
+        "url": "https://www.molit.go.kr/wrocm/USR/tender/m_15962/lst.jsp"
+      }
+    ],
+    "한국환경공단": [
+      {
+        "name": "측정대행계약관리기관 운영",
+        "url": "https://www.keco.or.kr/web/lay1/S1T197C1461/contents.do"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.keco.or.kr/web/lay1/S1T10C113/sublink.do"
+      },
+      {
+        "name": "입찰 자료(수의계약 현황 등)",
+        "url": "https://www.keco.or.kr/web/lay1/bbs/S1T115C126/A/60/list.do"
+      },
+      {
+        "name": "기타 입찰 및 매각공고",
+        "url": "https://www.keco.or.kr/web/lay1/bbs/S1T115C125/A/23/list.do"
+      },
+      {
+        "name": "발주계획",
+        "url": "https://www.keco.or.kr/web/lay1/bbs/S1T115C127/A/61/list.do"
+      },
+      {
+        "name": "하도급계약",
+        "url": "https://www.keco.or.kr/web/lay1/bbs/S1T115C131/A/65/list.do"
+      },
+      {
+        "name": "공고 및 자료실",
+        "url": "https://www.keco.or.kr/web/lay1/bbs/S1T260C262/A/113/list.do"
+      },
+      {
+        "name": "사업공고",
+        "url": "https://www.keco.or.kr/web/lay1/bbs/S1T265C1502/A/313/list.do"
+      },
+      {
+        "name": "[공지] 2026년 국가배터리순환클러스터 기업지원 프로그램 통합 공고2026-06-04",
+        "url": "https://www.keco.or.kr/web/lay1/bbs/S1T17C108/A/18/view.do?article_seq=99802"
+      },
+      {
+        "name": "(재공고)당진수거사업소 영농폐비닐(하이덴) 3차 매각",
+        "url": "https://www.keco.or.kr/web/lay1/bbs/S1T115C125/A/23/view.do?article_seq=99537"
+      },
+      {
+        "name": "홍성 당진 보령 수거사업소 영농폐비닐(HDPE) 매각공고",
+        "url": "https://www.keco.or.kr/web/lay1/bbs/S1T115C125/A/23/view.do?article_seq=99240"
+      }
+    ],
+    "국방부": [
+      {
+        "name": "입찰",
+        "url": "https://www.mnd.go.kr/mnd/155/subview.do"
+      },
+      {
+        "name": "고시공고",
+        "url": "https://www.mnd.go.kr/mnd/157/subview.do"
+      }
+    ],
+    "한국농어촌공사": [
+      {
+        "name": "수의계약",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=8a8bb3529665d71401980bc89857098b"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317cc0644a017cc07d26ce0015"
+      },
+      {
+        "name": "입찰ㆍ계약정보",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317cc0644a017cc0c1050900e4"
+      },
+      {
+        "name": "수의계약 사전공고",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317cc0644a017cc0c25a0a00f2"
+      },
+      {
+        "name": "발주계획",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317cc0644a017cc0c27f9e00f4"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317cc0644a017cc0c2abfd00f6"
+      },
+      {
+        "name": "입찰자료",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317cc0644a017cc0c2f7be00f8"
+      },
+      {
+        "name": "계약정보",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317cc0644a017cc0c3243100fa"
+      },
+      {
+        "name": "하도급공사 계약자료",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317cc0644a017cc5b704c90573"
+      },
+      {
+        "name": "매각공고",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317cc0644a017cc0c42a3c0104"
+      },
+      {
+        "name": "사용허가 입찰정보",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317cc0644a017cc0c8077d0112"
+      },
+      {
+        "name": "관계주민 의견청취 공고",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317d0c5551017d22d21e2d0590"
+      },
+      {
+        "name": "임원직무청렴계약",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317cc0644a017cc0d3cdca0177"
+      },
+      {
+        "name": "입찰공지사항",
+        "url": "https://www.ekr.or.kr/index.krc?contentUid=402880317cc0644a017cc0c22f2800f0"
+      },
+      {
+        "name": "고경면 농촌중심지활성화사업 설계용역 제안공모 심사결과",
+        "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529b9690c0019e9684cc9507f2&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=402880317cc0644a017cc0c9da9f0120"
+      },
+      {
+        "name": "공시송달 공고문 『국지도58호선 곤양-곤명 도로건설공사』",
+        "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529b9690c0019e96823341075f&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=402880317cc0644a017cc0c9da9f0120"
+      },
+      {
+        "name": "고흥군 스마트 원예단지 기반조성사업 토목건축공사 안전점검 수행기관 지정 공고",
+        "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529b9690c0019e9648e9607c79&boardUid=402880317cc0644a017cc5e8000f06b7&contentUid=402880317cc0644a017cc0c9da9f0120"
+      },
+      {
+        "name": "2025년 본사 사업장 소방시설 안전관리 업무대행 용역 입찰참가 자격 제한(안) 계약심의위원회 자료 공개",
+        "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529665d714019aba088d7e7818&boardUid=402880317cc0644a017cc463cec202be&contentUid=402880317cc0644a017cc0c22f2800f0"
+      },
+      {
+        "name": "2025년 제2회 충북지역본부 계약심의위원회(부정당업자 입찰참가자격 제한) 심의결과 공개",
+        "url": "https://www.ekr.or.kr/planweb/board/view.krc?dataUid=8a8bb3529665d7140198dff060582e5b&boardUid=402880317cc0644a017cc463cec202be&contentUid=402880317cc0644a017cc0c22f2800f0"
+      }
+    ],
+    "천안시": [
+      {
+        "name": "공고알림",
+        "url": "https://www.cheonan.go.kr/prog/saeolGosi/GOSI/kor/sub02_02_01/list.do"
+      },
+      {
+        "name": "유관기관 공고",
+        "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000035/list.do"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.cheonan.go.kr/prog/saeolGosi/GOSI_04/kor/sub02_02_06/list.do"
+      },
+      {
+        "name": "분묘개장 공고등록",
+        "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000038/list.do"
+      },
+      {
+        "name": "용역 결과공개",
+        "url": "https://www.cheonan.go.kr/kor/sub03_06_11.do"
+      },
+      {
+        "name": "계약정보공개",
+        "url": "https://www.cheonan.go.kr/bbs/BBSMSTR_000000000061/list.do"
+      },
+      {
+        "name": "계약현황공개",
+        "url": "https://www.cheonan.go.kr/prog/ctrt01/contract/sub03_07_04_01/1/list.do"
+      },
+      {
+        "name": "수의계약현황",
+        "url": "https://www.cheonan.go.kr/prog/ctrt02/contract/sub03_07_05_01/1/list.do"
+      },
+      {
+        "name": "하도급계약현황",
+        "url": "https://www.cheonan.go.kr/prog/ctrt03/contract/sub03_07_06_01/1/list.do"
+      },
+      {
+        "name": "공고/고시2026년 민방위 보충1차 집합교육 통지서 반송에 따른 공시송달 공고민방위기본법」 제23조민방위대원의 교육훈련 및 제24조교육훈련 통지서의 전달 등에 의거하여 2026년 민방위 교육훈련집합 통지서를 등기우편 발송하였으나, 폐문부재 등의 사유로 송달이 불가능하여 「행정절차법」 제14조송달 제4항 규정에 따라 다음과 같이 공시송달 공고합니다. 1. 공고제목: 2026년 민방위 집합교육 참석 안내 통지서 반송에 따른 공시송달 공고 2. 공고기간: 2026. 6. 8. ~ 6. 22. 15일간 3. 공고방법: 홈페이지 및 게시판 공고 4. 공고대상: 붙임 참조 5. 공고내용 가. 교육구분: 2026년 민방위 집합교육기본교육 나. 교육대상: 쌍용2동 소속 민방위대원1~2년차 다. 교육일자: 2026. 6. 25목 09:00~13:00 라. 교육방법: 집합교육대면 마. 교육장소: 천안축구센터 바. 문 의 처: 쌍용2동 민방위 담당자☏041-521-6925 6. 민방위 교육을 이수하지 않은 경우, 「민방위기본법」 제39조 제1항에 따라 과태료가 부과될 수 있음을 알려드립니다. 끝. 붙임 2026년 민방위 집합교육 통지서 반송에 따른 공시송달 공고문 1부. 끝.NEW2026. 06. 05",
+        "url": "https://www.cheonan.go.kr/prog/saeolGosi/GOSI/kor/sub02_02_01/view.do?notAncmtMgtNo=113006"
+      },
+      {
+        "name": "공고/고시2026년 추모공원 내 커피전문점 다회용기 이용지원사업 보조사업자 공개모집 공고「지방보조금법」제7조제2항 및 「천안시 지방보조금 관리 조례」에 의거 자원순환분야 보조금 지원사업 시행을 다음과 같이 공고하고자 합니다.NEW2026. 06. 05",
+        "url": "https://www.cheonan.go.kr/prog/saeolGosi/GOSI/kor/sub02_02_01/view.do?notAncmtMgtNo=113005"
+      },
+      {
+        "name": "공고/고시소액수의 견적제출 안내공고[병천면 봉항로(시도6호선) 외1개소 도로정비공사]붙임과 같이 공고합니다.NEW2026. 06. 05",
+        "url": "https://www.cheonan.go.kr/prog/saeolGosi/GOSI/kor/sub02_02_01/view.do?notAncmtMgtNo=112989"
+      },
+      {
+        "name": "천안시 서북구 입장면 연곡길 407입장거봉포도축제천안 입장거봉포도 홍보·판촉전은 휴게소를 찾는 방문객들이 차에서 간편하게 입장거봉포도를 구매하고 맛볼 수 있도록 마련된 행사이다.더보기",
+        "url": "https://www.cheonan.go.kr/prog/tuFstvl/tour/sub04_01_06/view.do?mngNo=62"
+      }
+    ],
+    "아산시": [
+      {
+        "name": "고시·공고",
+        "url": "https://www.asan.go.kr/main/cms/?no=257"
+      },
+      {
+        "name": "계약정보공개시스템",
+        "url": "https://asan.go.kr/contract/main/"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.asan.go.kr/main/cms/?no=483"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.asan.go.kr/main/cms/?no=142"
+      },
+      {
+        "name": "무연분묘공고",
+        "url": "https://www.asan.go.kr/main/cms/?no=143"
+      },
+      {
+        "name": "타시군고시공고",
+        "url": "https://www.asan.go.kr/main/cms/?no=144"
+      },
+      {
+        "name": "시정공고",
+        "url": "https://www.asan.go.kr/main/cms/?no=139"
+      },
+      {
+        "name": "전세계약 유의사항",
+        "url": "https://www.asan.go.kr/main/cms/?no=527"
+      },
+      {
+        "name": "새글2026년 아산시보건소 구내식당 기간제 근로자(조리원) 서류전형 합격자 발표 및 면접전형 시행계획 공고2026-06-05 16:35:17",
+        "url": "https://www.asan.go.kr/main/cms/?no=140&m_mode=view&pds_no=2026060516351761496&tb_nm=exam"
+      },
+      {
+        "name": "2026년 제6회 아산시시설관리공단 일반직(정규직) 필기전형 합격자 발표 및 면접전형 실시 공고2026-06-04 17:26:35",
+        "url": "https://www.asan.go.kr/main/cms/?no=140&m_mode=view&pds_no=2026060417263598347&tb_nm=exam"
+      },
+      {
+        "name": "D-62026년 영인면 주민자치 프로그램(라인댄스) 강좌 강사 공개 추가모집 공고2026-06-04 15:26:56",
+        "url": "https://www.asan.go.kr/main/cms/?no=140&m_mode=view&pds_no=2026060415265623282&tb_nm=exam"
+      },
+      {
+        "name": "D-12(재)아산시청소년재단 대표이사 모집공고2026-06-04 09:29:01",
+        "url": "https://www.asan.go.kr/main/cms/?no=140&m_mode=view&pds_no=2026060409290138188&tb_nm=exam"
+      },
+      {
+        "name": "2026년도 제3회 아산시 지방임기제공무원 임용시험 최종합격자 공고(위생단속분야)2026-06-02 16:48:27",
+        "url": "https://www.asan.go.kr/main/cms/?no=140&m_mode=view&pds_no=2026060216482715518&tb_nm=exam"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://asan.go.kr/main/cms/?no=142"
+      },
+      {
+        "name": "계약정보공개",
+        "url": "https://www.asan.go.kr/main/cms/?no=62"
+      }
+    ],
+    "대전도시공사": [
+      {
+        "name": "분양공고",
+        "url": "https://www.dcco.kr/web/board/list.do?mId=37"
+      },
+      {
+        "name": "임대공고",
+        "url": "https://www.dcco.kr/web/board/list.do?mId=43"
+      },
+      {
+        "name": "계약서비스약속",
+        "url": "https://www.dcco.kr/web/contents/view.do?mId=78"
+      },
+      {
+        "name": "계약정보공개",
+        "url": "https://www.dcco.kr/web/board/list.do?mId=191"
+      },
+      {
+        "name": "발주정보 및 발주계획",
+        "url": "https://www.dcco.kr/web/board/list.do?mId=109"
+      },
+      {
+        "name": "계약관리",
+        "url": "https://www.dcco.kr/web/subcont/ctrtSttsList.do?mId=283"
+      },
+      {
+        "name": "계약서류 양식 다운로드",
+        "url": "https://www.dcco.kr/web/subcont/ctrtDcmnt.do?mId=287"
+      },
+      {
+        "name": "구암 다가온 청년주택 예비입주자 모집 공고2026-05-18",
+        "url": "https://www.dcco.kr/web/board/view.do?mId=43&brdIdx=24791"
+      },
+      {
+        "name": "2026년 기존주택(청년 + 신혼부부임대) 매입 공고2026-04-10",
+        "url": "https://www.dcco.kr/web/board/view.do?mId=43&brdIdx=24789"
+      },
+      {
+        "name": "2026년 신혼·신생아 매입임대주택Ⅱ 예비입주자 모집공고2026-04-09",
+        "url": "https://www.dcco.kr/web/board/view.do?mId=43&brdIdx=24788"
+      },
+      {
+        "name": "대전평촌일반산업단지 지원시설용지 공급 공고2026-05-19",
+        "url": "https://www.dcco.kr/web/board/view.do?mId=37&brdIdx=24792"
+      },
+      {
+        "name": "대전 평촌일반산업단지 입주협약기업 입주계약 심사결과 공고2026-05-15",
+        "url": "https://www.dcco.kr/web/board/view.do?mId=37&brdIdx=24790"
+      },
+      {
+        "name": "대전평촌일반산업단지 입주협약기업 입주계약심사결과 공고2026-04-02",
+        "url": "https://www.dcco.kr/web/board/view.do?mId=37&brdIdx=24787"
+      },
+      {
+        "name": "2026년 대전도시공사 지속가능경영보고서 발간 용역2026-05-29",
+        "url": "https://www.dcco.kr/web/board/view.do?mId=191&brdIdx=25599"
+      },
+      {
+        "name": "평촌일반산업단지 가설사무실 철거공사 건설폐기물(가연성) 처리용역2026-05-29",
+        "url": "https://www.dcco.kr/web/board/view.do?mId=191&brdIdx=25598"
+      },
+      {
+        "name": "서남부지구 도시개발사업 문화재 표본 및 시굴조사용역2026-05-15",
+        "url": "https://www.dcco.kr/web/board/view.do?mId=191&brdIdx=25597"
+      }
+    ],
+    "새만금개발공사": [
+      {
+        "name": "청렴계약지킴센터",
+        "url": "https://www.sdco.or.kr/menu.es?mid=a10202060000"
+      },
+      {
+        "name": "청렴계약자료실",
+        "url": "https://www.sdco.or.kr/menu.es?mid=a10202070000"
+      },
+      {
+        "name": "공정계약",
+        "url": "https://www.sdco.or.kr/menu.es?mid=a10503030000"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.sdco.or.kr/menu.es?mid=a10601020000"
+      },
+      {
+        "name": "새소식2026년도 녹색구매 이행계획 공표「녹색제품 구매 촉진에 관한 법률」 제8조에 따라 2026년 새만금개발공사의 녹색구매이행계획을 붙임과 같이 공표합니다.   붙임 1. 새만금개발공사 2026년 계획2026-03-12",
+        "url": "https://www.sdco.or.kr/board.es?mid=a10601010000&bid=0006&list_no=1745&act=view"
+      },
+      {
+        "name": "새소식(공공데이터 개방) 새만금개발공사 수의계약 현황 자료안녕하십니까. 새만금개발공사의 수의계약 현황(2023~2024) 자료를 붙임과 같이 공개합니다.개방 데이터는 사업명, 계약일자, 계약금액, 업체명 항목으로 구성되어 있으며, 이를 통해 새만금개발공사의 수의계약 체결내역을 한눈에 확인할 수 있습니다.감사합니다.2025-11-12",
+        "url": "https://www.sdco.or.kr/board.es?mid=a10601010000&bid=0006&list_no=1631&act=view"
+      },
+      {
+        "name": "고시/공고(공고) 새만금 제2산업단지 조성사업 연계교통체계구축대책 수립 및 교통영향평가 용역 사업수행능력평가(QBS) 위원 명단 및 결과 공개국토교통부 고시 제 2025-387호(2025.7.9.) 「건설엔지니어링사업자 사업수행능력 세부평가기준」」 제6조제2항에 따라,\"새만금 제2산업단지 조성사업 연계교통체계구축대책 수립 및 교통영향평가 용역\" 사업수행능력평가의 위원별 평가결과, 평가사유서, 위원명단을 붙임과 같이 공개합니다.※ 이 평가 결과는 당해 입찰 건에 대한 평가결과이며, 본 평가결과를 부당한 용도로 사용할 수 없음을 알려드립니다.붙임 1. (게시용) 평가결과 1부.     2. (게시용) 평가사유서 1부.     3. (게시용) 평가위원명단 1부. 끝.2026-04-24",
+        "url": "https://www.sdco.or.kr/board.es?mid=a10601020000&bid=0007&list_no=1786&act=view"
+      },
+      {
+        "name": "고시/공고(공고) 새만금 제2산업단지 조성사업 재해영향평가 용역 사업수행능력평가(QBS) 위원 명단 및 결과 공개국토교통부 고시 제 2025-387호(2025. 7. 9.) \"건설엔지니어링사업자 사업수행능력 세부평가기준\" 제6조제2항에 따라, 사업수행능력평가의 위원별 평가결과, 평가사유서 및 평가위원명단을 붙임과 같이 공개합니다.※ 이 평가 결과는 당해 입찰 건에 대한 평가결과이며, 본 평가결과를 부당한 용도로 사용할 수 없음을 알려드립니다.붙임 1. (게시용) 평가결과 1부.     2. (게시용) 평가사유서 1부.     3. (게시용) 평가위원명단 1부. 끝.2026-04-16",
+        "url": "https://www.sdco.or.kr/board.es?mid=a10601020000&bid=0007&list_no=1785&act=view"
+      },
+      {
+        "name": "고시/공고(공고) \"새만금 제2산업단지 조성사업 연계교통체계구축대책 수립 및 교통영향평가 용역\" 사업수행능력평가 업무중복도 평가자료 공개새만금 제2산업단지 조성사업 연계교통체계구축대책 수립 및 교통영향평가 용역과 관련하여,「건설엔지니어링 사업수행능력평가 업무지침」제10조제2항에 따라 업무중복도 평가를 위해 제출받은 평가자료를 다음과 같이 공개합니다.  ※업체 순서의 경우 접수 순서1. 사업수행능력평가 업무중복도 평가자료 : 첨부파일 참조2. 의견 제출 가. 제출기간 : 2026.04.07. ~ 2026.04.13.(7일간) 나. 제출내용 : 업무중복도 오류나 누락사항 등에 대한 의견 다. 제출방법  1) 제출처 : 새만금개발공사 관광산단처  2) 제출방법 : 메일(sehun789@sdco.or.kr) 송부  3) 참고사항 : 메일 송부 후 유선연락 요망(Tel. 063-440-6795)  끝.2026-04-06",
+        "url": "https://www.sdco.or.kr/board.es?mid=a10601020000&bid=0007&list_no=1777&act=view"
+      },
+      {
+        "name": "고시/공고(공고) \"새만금 제2산업단지 조성사업 재해영향평가 용역\" 사업수행능력평가 업무중복도 평가자료 공개새만금 제2산업단지 조성사업 재해영향평가 용역과 관련하여,「건설엔지니어링 사업수행능력평가 업무지침」제10조제2항에 따라 업무중복도 평가를 위해 제출받은 평가자료를 다음과 같이 공개합니다.  ※업체 순서의 경우 접수 순서1. 사업수행능력평가 업무중복도 평가자료 : 첨부파일 참조2. 의견 제출 가. 제출기간 : 2026.03.31. ~ 2026.04.06.(7일간) 나. 제출내용 : 업무중복도 오류나 누락사항 등에 대한 의견 다. 제출방법  1) 제출처 : 새만금개발공사 관광산단처  2) 제출방법 : 메일(sehun789@sdco.or.kr) 송부  3) 참고사항 : 메일 송부 후 유선연락 요망(Tel. 063-440-6795)  끝.2026-03-30",
+        "url": "https://www.sdco.or.kr/board.es?mid=a10601020000&bid=0007&list_no=1757&act=view"
+      },
+      {
+        "name": "고시/공고(공고) 2025년도 재무상태표새만금개발공사 「정관」제58조제4항  및 「회계규정」제51조제3항에 따라감사인의 명칭과 감사 의견을 병기한 재무상태표를 붙임과 같이 공고합니다.감사인 : 우리회계법인감사의견 : 적정붙임 : 새만금개발공사 2025년도 감사의견 및 재무상태표 1부.  끝.2026-03-27",
+        "url": "https://www.sdco.or.kr/board.es?mid=a10601020000&bid=0007&list_no=1755&act=view"
+      },
+      {
+        "name": "고시/공고(공고) 새만금 제2산업단지 조성사업 재해영향평가 용역 입찰 관련 질의답변 사항 공지우리 공사에서 발주한 \"새만금 제2산업단지 조성사업 재해영향평가 용역\" 입찰과 관련하여질의답변 사항을 공지하오니, 입찰자료 작성 시 관련 내용을 숙지하여 작성 바랍니다. 아울러 해당 공지내용 미숙지에 대한 책임은 임찰참가자에게 있으니 유념하시기 바랍니다.2026-03-18",
+        "url": "https://www.sdco.or.kr/board.es?mid=a10601020000&bid=0007&list_no=1748&act=view"
+      },
+      {
+        "name": "고시/공고(공고) 새만금 스마트 수변도시(A1) 조성사업 1공구 도로 및 지하시설물 GIS DB 구축 용역 입찰 관련 질의답변 사항 공지우리 공사에서 발주한 \"새만금 스마트 수변도시(A1) 조성사업 1공구 도로 및 지하시설물 GIS DB 구축 용역\" 입찰과 관련하여질의답변 사항을 공지하오니, 입찰자료 작성 시 관련 내용을 숙지하여 작성 바랍니다. 아울러 해당 공지내용 미숙지에 대한 책임은 임찰참가자에게 있으니 유념하시기 바랍니다.2026-03-11",
+        "url": "https://www.sdco.or.kr/board.es?mid=a10601020000&bid=0007&list_no=1743&act=view"
+      },
+      {
+        "name": "고시/공고(공고) \"새만금 제2산업단지 조성사업 지반조사 용역\" 사업수행능력평가 업무중복도 평가자료 공개새만금 제2산업단지 조성사업 지반조사 용역과 관련하여,「건설엔지니어링 사업수행능력평가 업무지침」제10조제2항에 따라 업무중복도 평가를 위해 제출받은 평가자료를 다음과 같이 공개합니다.  ※업체 순서의 경우 접수 순서1. 사업수행능력평가 업무중복도 평가자료 : 첨부파일 참조2. 의견 제출 가. 제출기간 : 2026.02.11. ~ 2026.02.17.(7일간) 나. 제출내용 : 업무중복도 오류나 누락사항 등에 대한 의견 다. 제출방법  1) 제출처 : 새만금개발공사 관광산단처  2) 제출방법 : 메일(kjh25@sdco.or.kr) 송부  3) 참고사항 : 메일 송부 후 유선연락 요망(Tel. 063-440-6794)  끝.2026-02-10",
+        "url": "https://www.sdco.or.kr/board.es?mid=a10601020000&bid=0007&list_no=1728&act=view"
+      }
+    ],
+    "한국수자원공사": [
+      {
+        "name": "용역사업장 방문관리",
+        "url": "https://www.kwater.or.kr/cust/sub04/sub09/visitApplyInfoPage.do?s_mid=2299"
+      },
+      {
+        "name": "보상공고",
+        "url": "https://www.kwater.or.kr/cust/sub04/sub06/notice/notiList.do?s_mid=2007&brdId=KO27&s_text=C&s_type=type"
+      },
+      {
+        "name": "입찰안내",
+        "url": "https://ebid.kwater.or.kr"
+      },
+      {
+        "name": "순천만 수산자원 및 생태환경 복원 협력사업 수행기관 모집공고",
+        "url": "https://www.kwater.or.kr/news/sub01/noti01View.do?s_mid=105&brdId=KO27&seq=140619"
+      }
+    ],
+    "광주시(계약정보공개시스템)": [
+      {
+        "name": "계약정보공개시스템",
+        "url": "https://gyeyak.gwangju.go.kr/index"
+      },
+      {
+        "name": "발주계획",
+        "url": "https://gyeyak.gwangju.go.kr/orderplan/lists/frest"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://gyeyak.gwangju.go.kr/bid"
+      },
+      {
+        "name": "계약현황",
+        "url": "https://gyeyak.gwangju.go.kr/contract/lists"
+      },
+      {
+        "name": "용역",
+        "url": "https://gyeyak.gwangju.go.kr/contract/lists?type=2"
+      },
+      {
+        "name": "협상에의한계약",
+        "url": "https://gyeyak.gwangju.go.kr/negotiation/lists"
+      },
+      {
+        "name": "수의계약",
+        "url": "https://gyeyak.gwangju.go.kr/contract/lists/pv"
+      },
+      {
+        "name": "용역",
+        "url": "https://gyeyak.gwangju.go.kr/contract/lists/pv?type=2"
+      },
+      {
+        "name": "용역",
+        "url": "https://gyeyak.gwangju.go.kr/payment/lists?type=2"
+      }
+    ],
+    "공주시(계약공개시스템)": [
+      {
+        "name": "공주시 GONGJU CITY계약공개시스템",
+        "url": "https://www.gongju.go.kr/contract/index.do"
+      },
+      {
+        "name": "발주계획",
+        "url": "https://www.gongju.go.kr/prog/contractOrder/contract/sub01_01/07/list.do"
+      },
+      {
+        "name": "용역발주계획",
+        "url": "https://www.gongju.go.kr/prog/contractOrder/contract/sub01_02/05/list.do"
+      },
+      {
+        "name": "물품발주계획",
+        "url": "https://www.gongju.go.kr/prog/contractOrder/contract/sub01_03/01/list.do"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.gongju.go.kr/prog/contractBid/contract/sub02_01/ALL/list.do"
+      },
+      {
+        "name": "계약정보",
+        "url": "https://www.gongju.go.kr/prog/ctrt01/contract/sub03_01_01/1/list.do"
+      },
+      {
+        "name": "용역계약현황",
+        "url": "https://www.gongju.go.kr/prog/ctrt01/contract/sub03_01_02/2/list.do"
+      },
+      {
+        "name": "물품계약현황",
+        "url": "https://www.gongju.go.kr/prog/ctrt01/contract/sub03_01_03/3/list.do"
+      },
+      {
+        "name": "수의계약현황공개",
+        "url": "https://www.gongju.go.kr/prog/ctrt02/contract/sub03_02_01/1/list.do"
+      },
+      {
+        "name": "용역수의계약현황",
+        "url": "https://www.gongju.go.kr/prog/ctrt02/contract/sub03_02_02/2/list.do"
+      },
+      {
+        "name": "물품수의계약현황",
+        "url": "https://www.gongju.go.kr/prog/ctrt02/contract/sub03_02_03/3/list.do"
+      },
+      {
+        "name": "하도급계약현황",
+        "url": "https://www.gongju.go.kr/prog/ctrt03/contract/sub03_03_01/1/list.do"
+      },
+      {
+        "name": "용역하도급계약현황",
+        "url": "https://www.gongju.go.kr/prog/ctrt03/contract/sub03_03_02/2/list.do"
+      },
+      {
+        "name": "물품하도급계약현황",
+        "url": "https://www.gongju.go.kr/prog/ctrt03/contract/sub03_03_03/3/list.do"
+      },
+      {
+        "name": "용역대금지급현황",
+        "url": "https://www.gongju.go.kr/prog/ctrt11/contract/sub03_04_02/2/list.do"
+      },
+      {
+        "name": "관외물품 계약현황",
+        "url": "https://www.gongju.go.kr/bbs/BBSMSTR_000000001353/list.do"
+      },
+      {
+        "name": "계약현황",
+        "url": "https://www.gongju.go.kr/prog/sangsu01/ctrt01/sub03_06_01_01/A/list.do"
+      },
+      {
+        "name": "수의계약현황",
+        "url": "https://www.gongju.go.kr/prog/sangsu01/ctrt02/sub03_06_02_01/A/list.do"
+      },
+      {
+        "name": "계약현황",
+        "url": "https://www.gongju.go.kr/prog/hasu01/ctrt01/sub03_07_01_01/A/list.do"
+      },
+      {
+        "name": "수의계약현황",
+        "url": "https://www.gongju.go.kr/prog/hasu01/ctrt02/sub03_07_02_01/A/list.do"
+      },
+      {
+        "name": "계약법규",
+        "url": "https://www.gongju.go.kr/bbs/BBSMSTR_000000000921/list.do"
+      },
+      {
+        "name": "계약서식",
+        "url": "https://www.gongju.go.kr/bbs/BBSMSTR_000000000922/list.do"
+      },
+      {
+        "name": "발주계획더보기",
+        "url": "https://www.gongju.go.kr/prog/contractOrder/contract/sub01_01/3/list.do"
+      },
+      {
+        "name": "수의계약수의계약정보를 확인하세요",
+        "url": "https://www.gongju.go.kr/prog/ctrt02/contract/sub03_02/A/list.do"
+      },
+      {
+        "name": "하도급계약하도급계약정보를 확인하세요",
+        "url": "https://www.gongju.go.kr/prog/ctrt03/contract/sub03_03/A/list.do"
+      }
+    ],
+    "여수지방해양수산청": [
+      {
+        "name": "입찰/고시/공고/훈령/예규",
+        "url": "https://yeosu.mof.go.kr/ko/board.do?menuIdx=3808"
+      },
+      {
+        "name": "여수수산청고시",
+        "url": "https://yeosu.mof.go.kr/ko/board.do?menuIdx=3824"
+      },
+      {
+        "name": "선원해사안전과2026년 제1회 임시 여객선선장 적성심사 시행계획 공고2026년 제1회 임시 여객선선장 적성심사 시행계획을 붙임과 같이 공고합니다.2026-06-05",
+        "url": "https://yeosu.mof.go.kr/ko/board.do?menuIdx=3807&bbsIdx=132380"
+      },
+      {
+        "name": "항만건설과업무여유도 공개(광양항 제품부두 전면항로 준설공사 환경영향평가용역)업무여유도 공개\"광양항 제품부두 전면항로 준설공사 환경영향평가용역\" 우리 청에서 시행 예정인 \"광양항 제품부두 전면항로 준설공사 환경영향평가용역\"과 관련하여, 「환경영향평가업자의 사업수행능력 세부평가기준」제6조2항에 따라 업무여유도 평가를 위해 참여업체로부터 제출받은 평가자료를 아래와 같이 우리 청 홈페이지에 공개하고, 이에 대한 오류나 누락사항 등 의견 수렴을 하고자 합니다. ○ 의견 제출 방법 : 이메일(eogks6082@korea.kr) 붙임 1. 참여업체 업무여유도 현황 1부. 2. 의견제출 양식 1부. 끝.2026-04-16",
+        "url": "https://yeosu.mof.go.kr/ko/board.do?menuIdx=3807&bbsIdx=131338"
+      },
+      {
+        "name": "선원해사안전과해상화물운송사업 폐업 공고여수지방해양수산청 공고 제2026 - 96호 해상화물운송사업 폐업 공고 해운법 제18조 및 같은 법 시행규칙 제15조제2항에 따라 해상화물운송 사업 폐업에 관한 사항을 붙임과 같이 공고합니다. 2026년 6월 5일 여수지방해양수산청장2026-06-05",
+        "url": "https://yeosu.mof.go.kr/ko/board.do?menuIdx=3808&bbsIdx=132385"
+      },
+      {
+        "name": "선원해사안전과해상화물운송사업 폐업 공고여수지방해양수산청 공고 제2026 - 95호 해상화물운송사업 폐업 공고 해운법 제18조 및 같은 법 시행규칙 제15조제2항에 따라 해상화물운송 사업 폐업에 관한 사항을 붙임과 같이 공고합니다. 2026년 6월 5일 여수지방해양수산청장2026-06-05",
+        "url": "https://yeosu.mof.go.kr/ko/board.do?menuIdx=3808&bbsIdx=132384"
+      },
+      {
+        "name": "선원해사안전과해상화물운송사업 폐업 공고여수지방해양수산청 공고 제2026 - 94호 해상화물운송사업 폐업 공고 해운법 제18조 및 같은 법 시행규칙 제15조제2항에 따라 해상화물운송 사업 폐업에 관한 사항을 붙임과 같이 공고합니다. 2026년 6월 5일 여수지방해양수산청장2026-06-05",
+        "url": "https://yeosu.mof.go.kr/ko/board.do?menuIdx=3808&bbsIdx=132382"
+      },
+      {
+        "name": "선원해사안전과해상화물운송사업 폐업 공고여수지방해양수산청 공고 제2026 - 93호 해상화물운송사업 폐업 공고 해운법 제18조 및 같은 법 시행규칙 제15조제2항에 따라 해상화물운송 사업 폐업에 관한 사항을 붙임과 같이 공고합니다. 2026년 6월 5일 여수지방해양수산청장2026-06-05",
+        "url": "https://yeosu.mof.go.kr/ko/board.do?menuIdx=3808&bbsIdx=132381"
+      },
+      {
+        "name": "해양수산환경과공유수면 점용사용 허가 고시여수지방해양수산청 고시 제2026-49호 「공유수면 관리 및 매립에 관한 법률」 제8조의 규정에 따라 공유수면 점용․사용 허가하였기에 이를 고시합니다. 2026년 6월 4일 여수지방해양수산청장2026-06-04",
+        "url": "https://yeosu.mof.go.kr/ko/board.do?menuIdx=3808&bbsIdx=132352"
+      },
+      {
+        "name": "운영지원과입찰공고[광양항 3단계 투기장(1구역) 항만재개발사업 연결도로 건설폐기물처리용역]입찰공고[광양항 3단계 투기장(1구역) 항만재개발사업 연결도로 건설폐기물처리용역]를 붙임과 같이 알려드립니다.2026-06-04",
+        "url": "https://yeosu.mof.go.kr/ko/board.do?menuIdx=3808&bbsIdx=132348"
+      }
+    ],
+    "한강유역환경청": [
+      {
+        "name": "공지·공고",
+        "url": "https://www.mcee.go.kr/hg/web/index.do?menuId=1255"
+      },
+      {
+        "name": "수의계약 현황",
+        "url": "https://www.mcee.go.kr/hg/web/index.do?menuId=10146"
+      },
+      {
+        "name": "공고",
+        "url": "https://www.mcee.go.kr/hg/web/index.do?menuId=1258"
+      },
+      {
+        "name": "[한강유역환경청 공고 제2026-63호] 경안천권역 하천기본계획 전략환경...",
+        "url": "https://www.mcee.go.kr/hg/web/board/read.do?menuId=1256&boardId=1867770&boardMasterId=342&condition.hideCate=1"
+      },
+      {
+        "name": "영산강유역환경청 생태조사연구원 서류 심사 합격자 및 면접 심사 계획 공고",
+        "url": "https://www.mcee.go.kr/hg/web/board/read.do?menuId=10168&boardId=1867830&boardMasterId=834&condition.hideCate=1"
+      }
+    ],
+    "대전 유성구청": [
+      {
+        "name": "고시·공고",
+        "url": "https://www.yuseong.go.kr/prog/saeolGosi/GOSI/kor/sub04_02_01/list.do"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.yuseong.go.kr/prog/saeolGosi/GOSI_02/kor/sub04_02_03/list.do"
+      },
+      {
+        "name": "무연분묘개장공고",
+        "url": "https://www.yuseong.go.kr/bbs/BBSMSTR_000000000102/list.do"
+      },
+      {
+        "name": "계약정보공개",
+        "url": "http://www.yuseong.go.kr/contract/"
+      },
+      {
+        "name": "상품권 구매내역",
+        "url": "https://www.yuseong.go.kr/bbs/BBSMSTR_000000000381/list.do"
+      },
+      {
+        "name": "계약정보공개​",
+        "url": "https://www.yuseong.go.kr/contract/"
+      }
+    ],
+    "영산강유역환경청": [
+      {
+        "name": "공지·공고",
+        "url": "https://mcee.go.kr/ysg/web/index.do?menuId=4283"
+      },
+      {
+        "name": "수의계약현황",
+        "url": "https://mcee.go.kr/ysg/web/index.do?menuId=10119"
+      },
+      {
+        "name": "공고",
+        "url": "https://mcee.go.kr/ysg/web/index.do?menuId=4286"
+      },
+      {
+        "name": "(계약관련) 선금 청구 시 제출 서류 안내",
+        "url": "https://mcee.go.kr/ysg/web/board/read.do?menuId=4284&boardId=1867000&boardMasterId=295&condition.hideCate=1"
+      },
+      {
+        "name": "(영산강유역환경청공고 제2026-50호) 지석천(국가하천) 하천구역 결정...",
+        "url": "https://mcee.go.kr/ysg/web/board/read.do?menuId=4284&boardId=1866780&boardMasterId=295&condition.hideCate=1"
+      },
+      {
+        "name": "(영산강청 공고 제2026-43호 관련) 실시설계용역 사업수행능력 평가자...",
+        "url": "https://mcee.go.kr/ysg/web/board/read.do?menuId=4284&boardId=1865320&boardMasterId=295&condition.hideCate=1"
+      },
+      {
+        "name": "영산강유역환경청 하도급계약 현황(2026.5월 기준)",
+        "url": "https://mcee.go.kr/ysg/web/board/read.do?menuId=4245&boardId=1867230&boardMasterId=271&condition.hideCate=1"
+      },
+      {
+        "name": "(계약관련) 선금 청구 시 제출 서류 안내",
+        "url": "https://mcee.go.kr/ysg/web/board/read.do?menuId=4245&boardId=1866920&boardMasterId=271&condition.hideCate=1"
+      },
+      {
+        "name": "영산강유역환경청 생태조사연구원 서류 심사 합격자 및 면접 심사 계획 공고",
+        "url": "https://mcee.go.kr/ysg/web/board/read.do?menuId=10157&boardId=1867830&boardMasterId=834&condition.hideCate=1"
+      }
+    ],
+    "화성시": [
+      {
+        "name": "정책연구용역 자료 공개",
+        "url": "https://www.hscity.go.kr/www/user/bbs/BD_selectBbsList.do?q_bbsCode=1177"
+      },
+      {
+        "name": "장사 공고게시판",
+        "url": "https://www.hscity.go.kr/www/user/bbs/BD_selectBbsList.do?q_bbsCode=1027"
+      },
+      {
+        "name": "공고고시",
+        "url": "https://www.hscity.go.kr/www/gosi/BD_notice.do"
+      },
+      {
+        "name": "일반공고",
+        "url": "https://www.hscity.go.kr/www/gosi/BD_selectGosiList.do"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.hscity.go.kr/www/gosi/BD_bidding.do"
+      },
+      {
+        "name": "타기관 공고/고시",
+        "url": "https://www.hscity.go.kr/www/user/bbs/BD_selectBbsList.do?q_bbsCode=1088"
+      },
+      {
+        "name": "계약(입찰)정보",
+        "url": "https://www.hscity.go.kr/www/information/cntrctBidInfo/relateSite.jsp"
+      }
+    ],
+    "원주지방환경청": [
+      {
+        "name": "공지·공고",
+        "url": "https://mcee.go.kr/wonju/web/index.do?menuId=1050"
+      },
+      {
+        "name": "수의계약현황",
+        "url": "https://mcee.go.kr/wonju/web/index.do?menuId=10114"
+      },
+      {
+        "name": "공고",
+        "url": "https://mcee.go.kr/wonju/web/index.do?menuId=1053"
+      },
+      {
+        "name": "영산강유역환경청 생태조사연구원 서류 심사 합격자 및 면접 심사 계획 공고",
+        "url": "https://mcee.go.kr/wonju/web/board/read.do?menuId=10202&boardId=1867830&boardMasterId=834&condition.hideCate=1"
+      }
+    ],
+    "금강유역환경청": [
+      {
+        "name": "공지·공고",
+        "url": "https://www.mcee.go.kr/gg/web/index.do?menuId=2283"
+      },
+      {
+        "name": "수의계약현황",
+        "url": "https://www.mcee.go.kr/gg/web/index.do?menuId=10130"
+      },
+      {
+        "name": "공고",
+        "url": "https://www.mcee.go.kr/gg/web/index.do?menuId=2286"
+      },
+      {
+        "name": "기술인평가서(SOQ) 평가 계획 알림(실시설계용역)",
+        "url": "https://www.mcee.go.kr/gg/web/board/read.do?menuId=2284&boardId=1868160&boardMasterId=235&condition.hideCate=1"
+      },
+      {
+        "name": "보상 협의(공시송달) 공고(갑천 유등천 대전3지구)",
+        "url": "https://www.mcee.go.kr/gg/web/board/read.do?menuId=2284&boardId=1866480&boardMasterId=235&condition.hideCate=1"
+      },
+      {
+        "name": "영산강유역환경청 생태조사연구원 서류 심사 합격자 및 면접 심사 계획 공고",
+        "url": "https://www.mcee.go.kr/gg/web/board/read.do?menuId=10161&boardId=1867830&boardMasterId=834&condition.hideCate=1"
+      }
+    ],
+    "대전 서구청": [
+      {
+        "name": "상품권 구매내역",
+        "url": "https://www.seogu.go.kr/bbs/BBSMSTR_000000000861/list.do"
+      },
+      {
+        "name": "계약정보공개",
+        "url": "https://www.seogu.go.kr/contract/"
+      },
+      {
+        "name": "고시공고",
+        "url": "https://www.seogu.go.kr/prog/saeolGosi/GOSI/kor/sub04_02_01/list.do"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.seogu.go.kr/prog/saeolGosi/02/kor/sub04_02_04/list.do"
+      }
+    ],
+    "한국가스공사": [
+      {
+        "name": "·  학장관리소 방호벽 설치공사 공사감독자 배치기준(안) 공고2026-05-20",
+        "url": "https://www.kogas.or.kr/site/koGas/bbs/View.do?cbIdx=6&boardIdx=47459&Key=1010201000000"
+      },
+      {
+        "name": "·  2026년 매설배관 건전성 확보공사 공사감독자 배치기준(안) 공고2026-05-19",
+        "url": "https://www.kogas.or.kr/site/koGas/bbs/View.do?cbIdx=6&boardIdx=47457&Key=1010201000000"
+      },
+      {
+        "name": "·  반월~목감(장상지구 1단계)구간 배관이설공사공사감독자배치기준(안) 공고2026-05-15",
+        "url": "https://www.kogas.or.kr/site/koGas/bbs/View.do?cbIdx=6&boardIdx=47451&Key=1010201000000"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.kogas.or.kr/site/koGas/referenceBidList.do?Key=1050105010000"
+      },
+      {
+        "name": "튜브피팅자재업무구분  : 물품계약방법 : 일반경쟁마감일시 : 2026-06-11 10:00:00",
+        "url": "https://www.kogas.or.kr/site/koGas/referenceBidView.do?Key=1050105010000&noticeCode=2026060507"
+      },
+      {
+        "name": "연간발주계획",
+        "url": "https://www.kogas.or.kr/site/koGas/goBoard.do?boardNo=21&Key=1060101020000"
+      },
+      {
+        "name": "공고",
+        "url": "https://www.kogas.or.kr/site/koGas/goBoard.do?boardNo=58&Key=1050705000000"
+      },
+      {
+        "name": "공정계약 모니터링",
+        "url": "https://www.kogas.or.kr/site/koGas/contractPollAgr1.do?&Key=1020309000000"
+      },
+      {
+        "name": "혁신 공공조달",
+        "url": "https://www.kogas.or.kr/site/koGas/1050605000000"
+      }
+    ],
+    "마산지방해양수산청": [
+      {
+        "name": "고시공고",
+        "url": "https://masan.mof.go.kr/ko/board.do?menuIdx=3676"
+      },
+      {
+        "name": "입찰안내",
+        "url": "https://masan.mof.go.kr/ko/board.do?menuIdx=2309"
+      },
+      {
+        "name": "입찰공고(구)",
+        "url": "https://masan.mof.go.kr/ko/tenderInfo/tenderInfoList.do?menuIdx=2310"
+      },
+      {
+        "name": "마산항 항만시설물 정밀안전점검용역",
+        "url": "https://masan.mof.go.kr/ko/page.do?menuIdx=3244"
+      },
+      {
+        "name": "마산항 항만건설현장 및 시설물 안전컨설팅 용역",
+        "url": "https://masan.mof.go.kr/ko/page.do?menuIdx=4390"
+      },
+      {
+        "name": "#해양수산환경과공유수면 점용·사용허가 면제 대상 시설 기준...마산지방해양수산청 고시 제2026-57호(마산지방해양수산청) 공유수면 점용·사용허가 면제 대상 시설 기준「공유수면 점용?사용허가 면제 대상 시설 기준」고시(마산지방해양수산청 제2022-87호)를 다음과 같이 개정 고시합니다.2026년 05월 20일마산지방해양수산청장등록일2026-05-20",
+        "url": "https://masan.mof.go.kr/ko/board.do?menuIdx=2307&bbsIdx=132016"
+      },
+      {
+        "name": "#어항건설과용역 참여업체 업무중복도 평가자료 공개[지세...「환경영향평가업자의 사업수행능력 세부평가기준(기후에너지환경부고시 제2025-165호, 2025.10.1.)」제6조제2항에 따라 우리 청에서 추진 중인 지세포항 정비공사 환경영향평가용역의 참여업체 업무중복도 평가자료를 다음과 같이 공개합니다.등록일2025-11-10",
+        "url": "https://masan.mof.go.kr/ko/board.do?menuIdx=2307&bbsIdx=128216"
+      },
+      {
+        "name": "#운영지원과용역(소액수의) 견적 제출 공고[2026년도...마산지방해양수산청 공고 제2026-76호소액수의 견적제출 공고 다음과 같이 견적제출을 공고합니다.2026년 06월 01일마산지방해양수산청장등록일2026-06-01",
+        "url": "https://masan.mof.go.kr/ko/board.do?menuIdx=2309&bbsIdx=132293"
+      },
+      {
+        "name": "#운영지원과용역(소액수의) 견적 제출 공고[2026년도...마산지방해양수산청 공고 제2026-75호소액수의 견적제출 공고 다음과 같이 견적제출을 공고합니다.2026년 06월 01일마산지방해양수산청장등록일2026-06-01",
+        "url": "https://masan.mof.go.kr/ko/board.do?menuIdx=2309&bbsIdx=132292"
+      },
+      {
+        "name": "#운영지원과시설공사 입찰공고(무인표지 시설물 도장공사)마산지방해양수산청 공고 제2026-71호시설공사 입찰 공고 우리 청에서 추진하는 “무인표지 시설물 도장공사”의 사업자 선정을위하여 「국가를 당사자로 하는 계약에 관한 법률 시행령」 제33조에 따라 다음과 같이 입찰 공고합니다.2026년 05월 18일마산지방해양수산청장등록일2026-05-18",
+        "url": "https://masan.mof.go.kr/ko/board.do?menuIdx=2309&bbsIdx=131964"
+      },
+      {
+        "name": "#운영지원과용역 입찰 정정 공고[2026년 해양폐기물수...마산지방해양수산청 공고 제2026-65호용역 입찰 공고‘2026년도 해양폐기물 수집?운반?처리 용역(단가계약)’의 사업자 선정을 위하여 「국가를 당사자로 하는 계약에 관한 법률 시행령」 제33조에 따라 다음과 같이 전자입찰 공고합니다. 2026년 04월 15일마산지방해양수산청장등록일2026-04-15",
+        "url": "https://masan.mof.go.kr/ko/board.do?menuIdx=2309&bbsIdx=131317"
+      },
+      {
+        "name": "#운영지원과용역 입찰 공고[2026년 해양폐기물수집운반...마산지방해양수산청 공고 제2026-60호용역 입찰 공고‘2026년도 해양폐기물 수집?운반?처리 용역(단가계약)’의 사업자 선정을 위하여 「국가를 당사자로 하는 계약에 관한 법률 시행령」 제33조에 따라 다음과 같이 전자입찰 공고합니다. 2026년 04월 06일마산지방해양수산청장등록일2026-04-06",
+        "url": "https://masan.mof.go.kr/ko/board.do?menuIdx=2309&bbsIdx=131106"
+      },
+      {
+        "name": "#운영지원과용역(소액수의) 견적 제출 공고[2026년도...마산지방해양수산청 공고 제2026-58호소액수의 견적제출 공고(안) 다음과 같이 견적제출을 공고합니다.2026년 04월 02일마산지방해양수산청장등록일2026-04-02",
+        "url": "https://masan.mof.go.kr/ko/board.do?menuIdx=2309&bbsIdx=131056"
+      }
+    ],
+    "경상남도": [
+      {
+        "name": "입찰공고",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000135003003000"
+      },
+      {
+        "name": "고시공고",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000135003009000"
+      },
+      {
+        "name": "분묘개장공고",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000135003007000"
+      },
+      {
+        "name": "발주계획",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000138006001000"
+      },
+      {
+        "name": "계약현황",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000138006002000"
+      },
+      {
+        "name": "수의계약현황",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000138006003000"
+      },
+      {
+        "name": "계약정보",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000149005000000"
+      },
+      {
+        "name": "계약심사",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000149006000000"
+      },
+      {
+        "name": "공고",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000135003000000"
+      },
+      {
+        "name": "계약정보",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000138006000000"
+      },
+      {
+        "name": "분묘개장·무연고 사망자 공고",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000144013005000"
+      },
+      {
+        "name": "전세계약 체결 시 유의사항",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000148017002000"
+      },
+      {
+        "name": "상품권 구매사용내역",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000149023004000"
+      },
+      {
+        "name": "발주계획",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000149005001000"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000149005002000"
+      },
+      {
+        "name": "계약현황",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000149005004000"
+      },
+      {
+        "name": "수의계약내역공개",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000149005005000"
+      },
+      {
+        "name": "관급공사·용역임금",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000149005008000"
+      },
+      {
+        "name": "계약심사제도 개요",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000149006001000"
+      },
+      {
+        "name": "분야별 계약심사",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000149006002000"
+      },
+      {
+        "name": "부울경 광역이음프로젝트사업(일자리지원) 대상자 모집 안내경상남도, 부산광역시, 울산광역시가 함께 고용노동부 광역이음프로젝트 사업을 추진합니다.  세부사업별 참여자(기업) 모집 안내를 드리오니 많은 관심과 참여 부탁드립니다.   1. 공통지원대상 : 경남, 부산, 울산에 소재하는 조선, 자동차, 기계부품 산업 및 관련 업종 근로자 및 기업 2. 모집기간, 세부 지원대상, 지원내용 등이 상이하므로 반드시 사업별 공고 내용을 확인하여 주시기 바랍니다. 3. 사업별 문의처 안내    1) 부울경 웰컴 청년 인재 통합지원 패키지  : 부산경영자총협회(051-631-4011~4)   2) 부울경 청년 근로자 2000 이룸 공제 : 한국커리어(055-276-8219 / 010-5075-6701)   3) 부울경 3T 협력 파트너십 : 부산경영자총협회(051-631-4015~6)자세히보기 →",
+        "url": "https://www.gyeongnam.go.kr/board/view.gyeong?boardId=BBS_0000057&menuCd=DOM_000000135001001000&paging=ok&startPage=1&searchType=&searchOperation=AND&keyword=&categoryCode1=A&dataSid=42387718"
+      },
+      {
+        "name": "2026년 스타트업 핵심 IP(지식재산권) 권리화 지원사업 창업기업 모집 연장공고2026년 스타트업 핵심 IP(지식재산권) 권리화 지원사업 창업기업 모집 연장 공고합니다. - 접수기간 : 2026. 6. 1.(월) ~ 6. 15.(월) 18시까지자세히보기 →",
+        "url": "https://www.gyeongnam.go.kr/board/view.gyeong?boardId=BBS_0000057&menuCd=DOM_000000135001001000&paging=ok&startPage=1&searchType=&searchOperation=AND&keyword=&categoryCode1=A&dataSid=42387483"
+      },
+      {
+        "name": "「경상남도 사무위임 규칙」일부개정규칙안 입법예고◉ 경상남도 입법예고 제2026-15호     「경상남도 사무위임 규칙」일부개정규칙안 입법예고   「경상남도 사무위임 규칙」을 개정함에 있어 그 내용과 취지를 주민에게 미리 알려 의견을 듣고자「행정절차법」제41조 및「경상남도 자치법규 입법예고에 관한 조례」제4조에 따라 다음과 같이 공고 합니다.   2026년 6월 4일   경상남도지사   1. 자치법규명 : 경상남도 사무위임 규칙 일부개정규칙안   2. 개정이유 행정능률 제고와 주민편의 향상 등을 위해 시장‧군수에게 재위임하는 사무를 신설함   3. 주요내용 가. 시장·군수에게 재위임하는 사무를 신설함(안 별표 1) 1) 수자원과 :「국유재산법」및「행정권한의 위임 및 위탁에 관한 규정」에 따른 기후에너지환경부 소관 국유재산 관리에 관한 사무를 신설함   4. 의견제출 이 자치법규의 입법안에 대한 의견이 있는 기관‧단체 또는 개인은 2026. 6. 14.(일)까지 경상남도지사(참조 : 정책기획관)에게 제출하여 주시기 바랍니다. 가. 입법예고 사항에 대한 항목별 의견(찬·반 여부와 그 사유) 나. 성명(기관‧단체인 경우에는 기관‧단체명과 대표자 성명), 주소, 전화번호 다. 보내실 곳 : 경상남도 정책기획관실 1) 주 소 : (51154)경남 창원시 의창구 중앙대로 300(사림동) 2) 전 화 : 055-211-2365 (FAX : 055-211-2319) 3) E-mail : kj5265@korea.kr   붙임 경상남도 사무위임 규칙 일부개정규칙안 1부. 끝.자세히보기 →",
+        "url": "https://www.gyeongnam.go.kr/board/view.gyeong?boardId=BBS_0000243&menuCd=DOM_000000149004003000&paging=ok&startPage=1&searchType=&searchOperation=AND&keyword=&categoryCode1=A&dataSid=42387370"
+      },
+      {
+        "name": "「경상남도 산림투자선도지구 지정 등에 관한 조례」제정안 입법예고◉ 경상남도 입법예고 제2026-12호     「경상남도 산림투자선도지구 지정 등에 관한 조례」제정안 입법예고   「경상남도 산림투자선도지구 지정 등에 관한 조례」를 제정함에 있어 그 내용과 취지를 도민에게 미리 알려 이에 대한 의견을 듣고자 「행정절차법」 제41조 및 「경상남도 자치법규 입법예고에 관한 조례」 제4조에 따라 다음과 같이 공고합니다.   2026년 4월 30일   경상남도지사   1. 자치법규명 : 「경상남도 산림투자선도지구 지정 등에 관한 조례」   2. 제정이유  「경북․경남․울산 초대형산불 피해구제 및 지원 등을 위한 특별법」 시행에 따라 산림투자선도지구 지정 등에 관하여 법에 위임한 세부 사항을 구체화하고 행정적 근거를 마련하기 위하여 조례를 제정하고자 함.   3. 주요내용 가. 기본사항 : 목적(제1조), 적용범위(제2조) 나. 선도지구 지정․절차 등 : 선도지구 지정요건(제3조), 선도지구 지정의 고시 등(제4조), 선도지구지정의 경미한 변경(제5조), 선도지구 지정․변경․해제 절차 등(제6조) 다. 선도지구개발계획 : 선도지구 개발계획(제7조) 라. 사업시행자 지정 등 : 민간투자자 등 사업시행자 자격 요건(제8조), 사업시행자의 지정(제9조), 사업시행자의 지정 취소(제10조), 실시계획의 수립 및 승인 등(제11조) 마. 선도지구심의회 : 선도지구심의회의 설치 및 기능(제12조), 선도지구심의회의 구성(제13조), 위원장의 직무(제14조), 회의 등(제15조), 위원의 결격사유(제16조), 위원의 제척․기피․회피(제17조) 바. 준공검사 등(제18조), 투자기업의 지원(제19조)   4. 의견제출 이 자치법규의 입법안에 대한 의견이 있는 기관․단체 또는 개인은 2026. 5. 20.(수)까지 경상남도지사(참조 : 산림관리과 산림정책담당)에게 제출하여 주시기 바랍니다. 가. 입법예고 사항에 대한 항목별 의견(찬·반 여부와 그 사유) 나. 성명(기관․단체인 경우에는 기관․단체명과 대표자 성명), 주소, 전화번호 다. 보내실 곳 : 경상남도 산림관리과 산림정책담당 1) 주 소 : (52732)경남 진주시 월아산로 2026, 경남도청 서부청사 2) 전 화 : 055-211-6812, 6813 (FAX : 055-211-6819) 3) E- mail : kkdong211@korea.kr   붙임 경상남도 산림투자선도지구 지정 등에 관한 조례 제정안 1부. 끝.자세히보기 →",
+        "url": "https://www.gyeongnam.go.kr/board/view.gyeong?boardId=BBS_0000243&menuCd=DOM_000000149004003000&paging=ok&startPage=1&searchType=&searchOperation=AND&keyword=&categoryCode1=A&dataSid=42379495"
+      },
+      {
+        "name": "「경상남도 마창대교 통행료 지원 조례안」입법예고◉ 경상남도 입법예고 제2026-13호     「경상남도 마창대교 통행료 지원 조례안」입법예고   「경상남도 마창대교 통행료 지원 조례」를 제정함에 있어 그 내용과 취지를 미리 알려 이에 대한 의견을 듣고자 「행정절차법」 제41조 및 「경상남도 자치법규 입법예고에 관한 조례」 제4조 및 제7조제1항에 따라 다음과 같이 공고합니다.   2026년 4월 30일   경상남도지사   1. 자치법규명  경상남도 마창대교 통행료 지원 조례안   2. 제정이유  마창대교를 이용하는 지역주민의 통행료 지원에 필요한 사항을 규정함으로써 주민의 경제적 부담 경감과 이동권을 보장하여 지역주민의 복리증진에 기여하고자 조례를 제정하고자 함   3. 주요내용 가. 조례의 목적과 정의를 규정함(안 제1조 및 안 제2조) 나. 통행료 지원과 지원대상에 관한 사항을 규정함(안 제3조 및 안 제4조) 다. 지원 대상 차량과 지원 대상 차량의 증표 등에 관한 사항을 규정함(안 제5조 및 안 제6조) 라. 지원기준에 관한 사항을 규정함(안 제7조) 마. 업무협약체결에 관한 사항을 규정함(안 제8조)   4. 의견제출 이 자치법규의 입법안에 대한 의견이 있는 기관․단체 또는 개인은 2026. 5. 20.(수)까지 경상남도지사(참조 : 건설지원과)에게 제출하여 주시기 바랍니다. 가. 입법예고 사항에 대한 항목별 의견(찬·반 여부와 그 사유) 나. 성명(기관․단체인 경우에는 기관․단체명과 대표자 성명), 주소, 전화번호 다. 보내실 곳 : 경상남도 건설지원과 민자관리담당 1) 주 소 : (51154)경남 창원시 의창구 중앙대로 300(사림동) 2) 전 화 : 055-211-2953 (FAX : 055-211-2919) 3) E- mail : ayj9140@korea.kr   붙임 경상남도 마창대교 통행료 지원 조례 제정안 1부. 끝.자세히보기 →",
+        "url": "https://www.gyeongnam.go.kr/board/view.gyeong?boardId=BBS_0000243&menuCd=DOM_000000149004003000&paging=ok&startPage=1&searchType=&searchOperation=AND&keyword=&categoryCode1=A&dataSid=42379350"
+      },
+      {
+        "name": "공사입찰공고(거제 수월2지구 하천재해예방사업)공사입찰공고(거제 수월2지구 하천재해예방사업)자세히보기 →",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000135003009001&mode=view&sno=54561&gosiGbn=A"
+      },
+      {
+        "name": "종합공사를 시공하는 건설사업자 건설업 양도신고 수리 공고「건설산업기본법」 제17조제1항에 따라 다음과 같이 건설업 양도・양수 신고를 수리 하였기에 같은 법 시행규칙 제18조 제7항에 따라 붙임과 같이 공고합니다.자세히보기 →",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000135003009001&mode=view&sno=54560&gosiGbn=A"
+      },
+      {
+        "name": "종합공사를 시공하는 건설업 폐업신고에 따른 등록말소 공고「건설산업기본법」 제20조의2 제1항에 따른 건설업 폐업신고가 있어 건설업 등록을 말소하고 「건설산업기본법 시행규칙」 제20조의3에 따라 다음과 같이 공고합니다.자세히보기 →",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000135003009001&mode=view&sno=54556&gosiGbn=A"
+      },
+      {
+        "name": "소액수의 견적제출 안내공고[2026년 긴급구조통제단 운영장비 구매]공고문 참조자세히보기 →",
+        "url": "https://www.gyeongnam.go.kr/index.gyeong?menuCd=DOM_000000135003009001&mode=view&sno=54554&gosiGbn=A"
+      },
+      {
+        "name": "분묘개장공고",
+        "url": "https://www.gyeongnam.go.kr/board/list.gyeong?boardId=BBS_0000253&menuCd=DOM_000000144013005000&contentsSid=7307&cpath="
+      }
+    ],
+    "전북지방환경청": [
+      {
+        "name": "공지·공고",
+        "url": "https://mcee.go.kr/smg/web/index.do?menuId=850"
+      },
+      {
+        "name": "수의계약현황",
+        "url": "https://mcee.go.kr/smg/web/index.do?menuId=10098"
+      },
+      {
+        "name": "공고",
+        "url": "https://mcee.go.kr/smg/web/index.do?menuId=857"
+      },
+      {
+        "name": "하천분야 신규 건설엔지니어링 집행계획 및 평가자료 제출에 관한 공고(안)",
+        "url": "https://mcee.go.kr/smg/web/board/read.do?menuId=855&boardId=1864880&boardMasterId=290&condition.hideCate=1"
+      },
+      {
+        "name": "영산강유역환경청 생태조사연구원 서류 심사 합격자 및 면접 심사 계획 공고",
+        "url": "https://mcee.go.kr/smg/web/board/read.do?menuId=10120&boardId=1867830&boardMasterId=834&condition.hideCate=1"
+      }
+    ],
+    "대전 동구청": [
+      {
+        "name": "계약정보공개투명하고 공정한계약업무를 추진합니다!바로가기",
+        "url": "https://www.donggu.go.kr/gyeyak/index.jsp"
+      },
+      {
+        "name": "고시공고",
+        "url": "https://www.donggu.go.kr/dg/kor/article/recruitAnnounce"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.donggu.go.kr/dg/kor/contents/914"
+      },
+      {
+        "name": "고시공고",
+        "url": "https://www.donggu.go.kr/dg/kor/contents/916"
+      },
+      {
+        "name": "상품권 구매내역",
+        "url": "https://www.donggu.go.kr/dg/kor/article/giftCardPurchaseHistory"
+      },
+      {
+        "name": "계약정보공개",
+        "url": "http://www.donggu.go.kr/gyeyak/index.jsp"
+      },
+      {
+        "name": "무연분묘 개장공고",
+        "url": "https://www.donggu.go.kr/dg/kor/article/anAnthology"
+      },
+      {
+        "name": "052026-062025년 기준 경제총조사 조사요원 (추가)모집 공고2025년 기준 경제총조사 조사요원을 다음과 같이 (추가)모집공고합니다.\r\n\r\n - 모집기간: 2026. 6. 5. ~ 6. 8.\r\n - 모집인원: 조사관리자 1명\r\n - 근무기간: 붙임파일 참고\r\n - 접수방법\r\n  ① 경제총조사 홈페이지 온라인 접수(www.ecensus.go.kr)\r\n  ② 통계 담당자 이메일(dmswn23@korea.kr) 접수\r\n - 제출서류 및 유의사항: 붙임파일 참고\r\n\r\n※자세한 사항은 붙임파일을 참고하시기 바랍니다.",
+        "url": "https://www.donggu.go.kr/dg/kor/article/recruitAnnounce/142386"
+      },
+      {
+        "name": "2026년 하반기 공공근로·지역공동체일자리사업 참여자 모집 공고",
+        "url": "https://www.donggu.go.kr/dg/kor/article/recruitAnnounce/142336"
+      },
+      {
+        "name": "2026년 소비자식품위생감시원 및 어린이기호식품전담관리원 모집 공고",
+        "url": "https://www.donggu.go.kr/dg/kor/article/recruitAnnounce/142343"
+      }
+    ],
+    "충남대학병원": [
+      {
+        "name": "공정계약모니터링",
+        "url": "https://www.cnuh.co.kr/home/sub03_1301.do"
+      },
+      {
+        "name": "공정계약 모니터링 설문조사 작성",
+        "url": "https://www.cnuh.co.kr/prog/fairCtrtQestnar/sub03_1306/write.do"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.cnuh.co.kr/prog/bid/list.do"
+      },
+      {
+        "name": "입찰공고자료실",
+        "url": "https://www.cnuh.co.kr/bbs/bidding2/list.do"
+      },
+      {
+        "name": "HLS물품조달시스템",
+        "url": "https://hls.cnuh.co.kr/"
+      }
+    ],
+    "보령시": [
+      {
+        "name": "계약정보(수의계약 등)",
+        "url": "http://contract.brcn.go.kr/main/index.jsp"
+      },
+      {
+        "name": "연구용역보고서",
+        "url": "https://www.brcn.go.kr/cop/bbs/BBSMSTR_000000000841/selectBoardList.do"
+      },
+      {
+        "name": "고시공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub04_03_01/list.do"
+      },
+      {
+        "name": "입찰공고",
+        "url": "http://contract.brcn.go.kr/contents/sub02_0101.jsp"
+      },
+      {
+        "name": "주택 안심계약 도움서비스",
+        "url": "https://www.brcn.go.kr/cop/bbs/BBSMSTR_000000001672/selectBoardList.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_01_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_02_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_37_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_35_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_38_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_12_05/list.do"
+      },
+      {
+        "name": "고시공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_34_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_21_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_19_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_07_05/list.do"
+      },
+      {
+        "name": "고시공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_25_03/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_10_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_39_05/list.do"
+      },
+      {
+        "name": "고시공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_27_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_20_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_31_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_13_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_14_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_41_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_15_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_16_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_17_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_29_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_30_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_42_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_03_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_04_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_05_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_40_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_11_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_06_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_08_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_09_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.brcn.go.kr/prog/eminwon/kor/BB/sub07_33_05/list.do"
+      }
+    ],
+    "대전 중구청": [
+      {
+        "name": "계약정보공개",
+        "url": "https://www.djjunggu.go.kr/contract/index.do"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_02/sub03_05/list.do"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI/sub03_06/list.do"
+      },
+      {
+        "name": "분묘개장공고",
+        "url": "https://www.djjunggu.go.kr/bbs/BBSMSTR_000000000150/list.do"
+      },
+      {
+        "name": "도시관리계획(도로, 주차장)(지구단위계획)(푸르내 자연휴양림) 변경결정 입안에 따른 공람공고붙임 참조도시계획과2026.06.05",
+        "url": "https://www.djjunggu.go.kr/prog/bbsArticle/BBSMSTR_000000000455/view.do?nttId=B000000226459Zx1rG8&mno=sub05_03_15_03"
+      },
+      {
+        "name": "차량 매각 공고지방세 체납으로 인하여 압류한 재산차량을「지방세징수법」 제71조공매 규정에 의하여 공매 하고자 아래와 같이 공고합니다.1. 공고기간: 2026. 6. 5.~ 2026. 6. 25.※ 입찰기간: 2026. 6. 23.~ 2026. 6. 25. 2. 공고장소: 대전광역시 중구청 홈페이지※ 입찰장소: 오토마트 홈페이지http://www.automart.co.kr 3. 공고내용: 압류재산차량 매각 공고문붙임참조세원관리과2026.06.05",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_02/sub03_05/view.do?notAncmtMgtNo=47585"
+      },
+      {
+        "name": "석교동 돌다리마을 활력센터 신축공사 물품(냉난방기) 구입·설치 입찰 공고1. 건명 : 석교동 돌다리마을 활력센터 신축공사 물품냉난방기 구입·설치2. 구매내역 : 내역서 및 시방서 참조3. 기초금액 : 금286,341,000원 / 부가가치세 포함4. 입찰방법 : 전자입찰, 총액입찰, 적격심사5. 공고기간 : 2026. 6. 2.화 ~ 2026. 6. 10.수 6. 개찰 : 2026. 6. 10.수 11:00회계과2026.06.02",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_02/sub03_05/view.do?notAncmtMgtNo=47576"
+      },
+      {
+        "name": "2026년 가로녹지 유지관리 공사 수의계약 안내공고2026년 가로녹지 유지관리 공사 수의계약 안내공고를 붙임과 같이 게시하고자 합니다.회계과2026.06.02",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_02/sub03_05/view.do?notAncmtMgtNo=47553"
+      },
+      {
+        "name": "[수의계약 안내공고]2026년 전통시장 아케이드 유지관리 용역2026년 전통시장 아케이드 유지관리 용역을 붙임과 같이 게시하고자 합니다.회계과2026.05.29",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_02/sub03_05/view.do?notAncmtMgtNo=47547"
+      },
+      {
+        "name": "2026년 가로수 해충방제 수간주사 약제 구입 소액수의 견적제출 공고2026년 가로수 해충방제 수간주사 약제 구입 소액수의 견적제출 공고를 아래와 같이 게시합니다.- 계약명: 2026년 가로수 해충방제 수간주사 약제 구입- 물품 내역: 규격서 참조 - 기초금액: 65,456,600원회계과2026.05.21",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_02/sub03_05/view.do?notAncmtMgtNo=47504"
+      },
+      {
+        "name": "2026년 5월 지방세 수시분 고지서 공시송달2026년 5월 지방세 수시분 고지서 공시송달에 대하여「지방세기본법」제33조 규정에 의거 대전광역시 중구 공고 제2026-862호로 공시송달하고 붙임내역을 홈페이지 및 게시판에 게재하고자 합니다.세원관리과2026.06.05",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_03/sub03_06/view.do?notAncmtMgtNo=47589"
+      },
+      {
+        "name": "도시관리계획(도로, 주차장)(지구단위계획) (푸르내 자연휴양림) 변경결정 입안에 따른 공람공고1. 대전광역시 중구 고시 제2025-57호2025. 5. 8.로 고시된 도시계획시설도로, 주차장지구단위계획과 관련 실시설계 내용 반영 등으로 인하여 입안한 도시관리계획 변경결정 입안에 대하여, 2. ？？국토의 계획 및 이용에 관한 법률？？ 제28조제1항 및 같은법 시행령 제22조제2항에 의거 이해관계인 및 주민 의견을 청취하고자 아래와 같이 공람공고하오니, 의견이 있으신 분은 공람기간 내 의견을 서면으로 제출하여 주시기 바랍니다.도시계획과2026.06.05",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_03/sub03_06/view.do?notAncmtMgtNo=47586"
+      },
+      {
+        "name": "지방세외수입(주정차위반과태료) 체납자 부동산 압류통지서 반송에 따른 공시송달 공고「지방행정제재·부과금의 징수 등에 관한 법률」 제9조 및 「질서위반행위규제법」 제24조 제3항 및 「지방세징수법」 제33조에 따라 지방세외수입주정차위반과태료 체납자의 재산을 압류하고 압류통지서를 등기우편으로 발송하였으나, 폐문부재 등의 사유로 송달이 불가능하여「행정절차법」제14조송달 제4항 및 「지방세기본법」제33조공시송달의 규정에 따라 다음과 같이 공시송달 공고합니다.주차관리과2026.06.05",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_03/sub03_06/view.do?notAncmtMgtNo=47584"
+      },
+      {
+        "name": "지방세외수입(주정차위반과태료) 체납자 압류통지서 반송에 따른 공시송달 공고「질서위반행위규제법」 제24조 제3항 및 「지방세징수법」 제33조에 따라 지방세외수입주정차위반과태료 체납자의 재산을 압류하고 압류통지서를 등기우편으로 발송하였으나, 폐문부재 등의 사유로 송달이 불가능하여「행정절차법」제14조송달 제4항 및 「지방세기본법」제33조공시송달의 규정에 따라 다음과 같이 공시송달 공고합니다.1. 공고내용: 지방세외수입주정차위반과태료 체납자 압류통지서 반송에 따른 공시송달 공고2. 공고기간: 2026. 6. 05. ~ 6. 20.15일간3. 공고방법: 홈페이지 및 게시판 게재4. 대상자 및 내용:[붙임]공고문 및 대상자 참조주차관리과2026.06.05",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_03/sub03_06/view.do?notAncmtMgtNo=47583"
+      },
+      {
+        "name": "도로명주소 부여 및 폐지 고시도로명주소법 제11조제3항, 제12조제5항 및 같은 법 시행령 제26조제6항, 같은 법 시행규칙 제23조에 따라 건물등에 부여한 도로명주소를 다음과 같이 고시합니다.ㅇ 도로명주소 고시대상 : 2건부여 1건, 폐지 1건- 부여1 대전광역시 중구 충무로 10대흥동- 폐지1 대전광역시 중구 충무로 10대흥동붙임1. 고시문16차 1부. 2. 도로명주소 부여 및 폐지 고시조서16차 1부.끝.토지정보과2026.06.05",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_01/sub03_06/view.do?notAncmtMgtNo=47581"
+      },
+      {
+        "name": "상위법령 개정 조문 반영 등을 위한 개정안 입법예고상위법령 개정 조문 반영 등을 위한 조례, 규칙 및 훈령을 일부 개정함에 있어서 그 내용과 취지를 구민에게 미리 알려 이에 대한 의견을 듣고자 「대전광역시 중구 법제 사무 운영 조례」제5조의 규정에 의하여 다음과 같이 공고합니다.기획홍보실2026.06.05",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_04/sub01_05_01/view.do?notAncmtMgtNo=47587"
+      },
+      {
+        "name": "대전광역시 중구 기후위기 대응을 위한 탄소중립 녹색성장 기본 조례 일부개정 조례안 입법예고문아래의 고시공고를[시군구보][홈페이지]에 게재하고자 합니다.대전광역시 중구 기후위기 대응을 위한 탄소중립 녹색성장 기본 조례를 일부 개정함에 있어 그 내용과 취지를 구민에게 미리 알려 이에 대한 의견을 듣고자 대전광역시 중구 법제사무 운영조례 제5조의 규정에 따라 다음과 같이 입법예고합니다. 붙임대전광역시 중구 기후위기 대응을 위한 탄소중립 녹색성장 기본 조례 일부개정조례안 입법예고문 1부.끝.기후환경과2026.05.13",
+        "url": "https://www.djjunggu.go.kr/prog/saeolGosi/GOSI_04/sub01_05_01/view.do?notAncmtMgtNo=47438"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.djjunggu.go.kr/prog/contractBid/contract/sub02_01/ALL/list.do"
+      }
+    ],
+    "한국중부발전": [
+      {
+        "name": "계약정보공개",
+        "url": "https://www.komipo.co.kr/fr/kor/announceInfo/main.do?schTabCd=KH041005&mnCd=FN010705"
+      },
+      {
+        "name": "공지사항2026년 KOMIPO 대국민 사회공헌 아이디어 공모 공고문 (기간 연장)2026.05.22",
+        "url": "https://www.komipo.co.kr/kor/board/BRD_000020/boardView.do?mnCd=FN100101&boardSeq=22348&pageIndex=1"
+      },
+      {
+        "name": "공지사항2026년 KOMIPO 대국민 사회공헌 아이디어 공모 공고문 (기간 연장)2026.05.22",
+        "url": "https://www.komipo.co.kr/kor/board/BRD_000020/boardView.do?mnCd=FN100101&boardSeq=22347&pageIndex=1"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.komipo.co.kr/kor/content/62/main.do?mnCd=FN090101"
+      }
+    ],
+    "대전 대덕구청": [
+      {
+        "name": "계약정보공개시스템",
+        "url": "https://www.daedeok.go.kr/gyeyak"
+      },
+      {
+        "name": "상품권 구매·사용내역",
+        "url": "https://www.daedeok.go.kr/dpt/dpt02/DPT0201010_cmmBoardList.do"
+      },
+      {
+        "name": "수의계약현황",
+        "url": "https://www.daedeok.go.kr/dpt/dpt02/DPT020304_cmmBoardList.do"
+      },
+      {
+        "name": "계약정보공개",
+        "url": "http://www.daedeok.go.kr/gyeyak/mainPage.do"
+      },
+      {
+        "name": "정책연구용역",
+        "url": "https://www.daedeok.go.kr/dpt/goContents.do?link=/dpt/dpt02/DPT0205&menuId=DPT0205"
+      },
+      {
+        "name": "고시공고",
+        "url": "https://www.daedeok.go.kr/dpt/dpt04/DPT040201_cmmBoardList.do"
+      },
+      {
+        "name": "도시계획고시공고",
+        "url": "https://www.daedeok.go.kr/dpt/dpt04/DPT040203_cmmBoardList.do"
+      },
+      {
+        "name": "고시공고",
+        "url": "https://www.daedeok.go.kr/dpt/dpt04/DPT040204_cmmBoardList.do"
+      },
+      {
+        "name": "무연분묘처리공고",
+        "url": "https://www.daedeok.go.kr/dpt/dpt06/DPT06020306_cmmBoardList.do"
+      },
+      {
+        "name": "2026년도 대전덕암 금속가공 소공인특화지원센터 지원사업 2차 모집 공고",
+        "url": "https://www.daedeok.go.kr/dpt/dpt04/DPT040101_cmmBoardView.do?boardId=DPT_000011&pageIndex=1&ntatcSeq=1105923588"
+      },
+      {
+        "name": "거주불명등록자 행정상관리주소이전 1차 공고",
+        "url": "https://www.daedeok.go.kr/dpt/dpt04/DPT040204_cmmBoardView.do?boardId=DPT_000087&pageIndex=1&ntatcSeq=1105980665"
+      },
+      {
+        "name": "「식품위생법」위반업소 과태료 납부 공시송달 공고",
+        "url": "https://www.daedeok.go.kr/dpt/dpt04/DPT040204_cmmBoardView.do?boardId=DPT_000087&pageIndex=1&ntatcSeq=1105982051"
+      },
+      {
+        "name": "중리동 제10통장 공개모집 재공고",
+        "url": "https://www.daedeok.go.kr/dpt/dpt04/DPT040204_cmmBoardView.do?boardId=DPT_000087&pageIndex=1&ntatcSeq=1105982052"
+      },
+      {
+        "name": "2026년 석봉동 주민자치센터 3분기 프로그램 수강생 모집 공고",
+        "url": "https://www.daedeok.go.kr/dpt/dpt04/DPT040204_cmmBoardView.do?boardId=DPT_000087&pageIndex=1&ntatcSeq=1105982054"
+      }
+    ],
+    "청양군": [
+      {
+        "name": "계약정보공개",
+        "url": "http://contract.cheongyang.go.kr"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.cheongyang.go.kr/kor/sub04_02_03.do"
+      },
+      {
+        "name": "제3자 제공공고",
+        "url": "https://www.cheongyang.go.kr/kor/sub04_02_08.do"
+      },
+      {
+        "name": "입찰공고/고시",
+        "url": "http://contract.cheongyang.go.kr/"
+      },
+      {
+        "name": "분묘개장공고",
+        "url": "http://www.cheongyang.go.kr/cop/bbs/BBSMSTR_000000000051/selectBoardList.do"
+      },
+      {
+        "name": "새소식2026년 전문자원봉사자 양성교육 '정리수납' 수강생 모집 공고작성자통합돌봄과날짜2026-06-02",
+        "url": "https://www.cheongyang.go.kr/cop/bbs/BBSMSTR_000000000037/selectBoardArticle.do?nttId=206094"
+      },
+      {
+        "name": "분묘개장공고",
+        "url": "https://www.cheongyang.go.kr/cop/bbs/BBSMSTR_000000000051/selectBoardList.do"
+      },
+      {
+        "name": "수의계약공개",
+        "url": "http://contract.cheongyang.go.kr/prog/ctrt02/contract/sub03_02_02/1/list.do"
+      }
+    ],
+    "한국서부발전": [
+      {
+        "name": "하도급공사 계약자료",
+        "url": "https://www.iwest.co.kr/iwest/1146/subview.do"
+      },
+      {
+        "name": "결산공고",
+        "url": "https://www.iwest.co.kr/iwest/1290/subview.do"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.iwest.co.kr/iwest/573/subview.do"
+      },
+      {
+        "name": "수의계약 정보공개",
+        "url": "https://www.iwest.co.kr/iwest/1080/subview.do"
+      },
+      {
+        "name": "계약 자료실",
+        "url": "https://www.iwest.co.kr/iwest/1094/subview.do"
+      },
+      {
+        "name": "수의계약 사전점검 게시판",
+        "url": "https://www.iwest.co.kr/iwest/1196/subview.do"
+      },
+      {
+        "name": "계약 및 불법하도급신고",
+        "url": "https://www.iwest.co.kr/iwest/523/subview.do"
+      },
+      {
+        "name": "NO.452여수 천연가스발전소 건설공사 안전점검 수행기관 모집 공고여수 천연가스발전소 건설공사 안전점검 수행기관 모집 공고「건설기술진흥법」제62 조, 같은 법 시행령 제100 조의 2 및 「건설공사 안전관리 업무 수행지침」제18 조 규정에 따라작성일2026-04-28조회수283첨부파일파일이 있습니다.",
+        "url": "https://www.iwest.co.kr/bbs/iwest/121/25337/artclView.do"
+      },
+      {
+        "name": "NO.4502026년도 한국서부발전 2026 미활용특허 무료기술나눔 공고2026년도 한국서부발전 2026 미활용특허 무료기술나눔 공고한국서부발전(주)이 보유한 특허기술을 중소기업 등으로 무상이전하여 기술의 공익적 확산과 공공기관과 중소기업의 상생적 동작성일2026-04-16조회수263첨부파일파일이 있습니다.",
+        "url": "https://www.iwest.co.kr/bbs/iwest/121/25303/artclView.do"
+      },
+      {
+        "name": "NO.449연구개발과제 개발선정품 지정예정 공고문연구개발과제 개발선정품 지정예정 공고문타 공공기관 지정 개발선정품의 활용 및 구매확대를 위해 아래와 같이 한국서부발전 개발선정품으로 지정하고자 하오니, 이의가 있을 경우 정해진 절작성일2026-03-04조회수795첨부파일파일이 있습니다.",
+        "url": "https://www.iwest.co.kr/bbs/iwest/121/25158/artclView.do"
+      },
+      {
+        "name": "NO.447여수 천연가스발전사업 사후환경영향조사 용역 참여기술자 업무여유도 공개여수 천연가스발전사업 사후환경영향조사 용역 참여기술자 업무여유도 공개환경영향평가업자의 사업수행능력 세부평가기준(기후에너지환경부 고시 제2025-91호) 제6조 2항에 따라,『여수작성일2026-02-20조회수731첨부파일파일이 있습니다.",
+        "url": "https://www.iwest.co.kr/bbs/iwest/121/25128/artclView.do"
+      },
+      {
+        "name": "NO.446여수 천연가스발전사업 사후환경영향조사 용역 추진계획 및 사업수행능력평가 세부기준(안) 공개여수 천연가스발전사업 사후환경영향조사 용역 사업수행능력평가 기준 확정 및 사업수행능력평가서 제출 안내당사에서 시행하는 여수 천연가스발전사업 「 사후환경영향조사 용역」의 사업수행능력작성일2025-12-15조회수1216첨부파일파일이 있습니다.",
+        "url": "https://www.iwest.co.kr/bbs/iwest/121/24830/artclView.do"
+      },
+      {
+        "name": "NO.4452025년 구미천연가스발전소 장학사업 선정자 공고2025년 구미천연가스발전소 장학사업 선정자를 붙임과 같이 공고합니다.작성일2025-12-08조회수1234첨부파일파일이 있습니다.",
+        "url": "https://www.iwest.co.kr/bbs/iwest/121/24795/artclView.do"
+      },
+      {
+        "name": "NO.444여수천연가스발전소 건설대비 전력구공사 안전점검 수행기관 지정 공고한국서부발전『여수천연가스발전소 건설대비 전력구공사』의 안전점검 수행기관 지정 공고우리 회사에서 건설 중인 『여수천연가스발전소 건설대비 전력구공사』관련 시설물 안전점검을 시행하고자작성일2025-11-27조회수1552첨부파일파일이 있습니다.",
+        "url": "https://www.iwest.co.kr/bbs/iwest/121/24775/artclView.do"
+      }
+    ],
+    "대전 교육청": [
+      {
+        "name": "고시·공고",
+        "url": "https://www.dje.go.kr/boardCnts/list.do?boardID=451&m=030102&s=dje"
+      },
+      {
+        "name": "검정고시",
+        "url": "https://www.dje.go.kr/boardCnts/list.do?boardID=65&m=031702&s=dje"
+      },
+      {
+        "name": "계약정보",
+        "url": "https://www.dje.go.kr/contractInfo/main.do"
+      },
+      {
+        "name": "발주계획",
+        "url": "https://www.dje.go.kr/clean/contract/InfoList01.do?m=0102&s=contractInfo"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.dje.go.kr/clean/info/05060101.do?s=contractInfo&m=0403"
+      },
+      {
+        "name": "계약체결현황",
+        "url": "https://www.dje.go.kr/clean/contract/InfoList04.do?m=0601&s=contractInfo"
+      },
+      {
+        "name": "수의계약공개",
+        "url": "https://www.dje.go.kr/boardCnts/list.do?boardID=528&m=0304&s=contractInfo"
+      },
+      {
+        "name": "고시·공고2026년 청소년단체 지원금 지원 계획 공고2026-06-05",
+        "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=451&boardSeq=3355917&lev=0&s=dje&menuID=030102"
+      },
+      {
+        "name": "고시·공고대전광역시교육청 고문변호사 공개모집 공고2026-06-01",
+        "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=451&boardSeq=3355498&lev=0&s=dje&menuID=030102"
+      },
+      {
+        "name": "고시·공고 더보기",
+        "url": "https://www.dje.go.kr/boardCnts/list.do?boardID=451&menuID=030102&s=dje"
+      },
+      {
+        "name": "검정고시2026년도 제1회 중학교 및 고등학교 졸업학력 검정고시 합격자 공고2026-05-08",
+        "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=65&boardSeq=3353884&lev=0&s=dje&menuID=031702"
+      },
+      {
+        "name": "검정고시2026년도 제1회 초등학교 졸업학력 검정고시 합격자 공고2026-05-08",
+        "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=65&boardSeq=3353883&lev=0&s=dje&menuID=031702"
+      },
+      {
+        "name": "검정고시2026년도 제1회 초등학교 졸업학력 검정고시 기출문제 및 정답 공개 알림2026-05-08",
+        "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=65&boardSeq=3353851&lev=0&s=dje&menuID=031702"
+      }
+    ],
+    "한국남동발전": [
+      {
+        "name": "하도급공사 계약자료 공개",
+        "url": "https://www.koenergy.kr/kosep/fr/cs/so/csso01/main.do?menuCd=FN0919"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.koenergy.kr/kosep/fr/bo/board/main.do?menuCd=FN05020101"
+      }
+    ],
+    "한국공항공사": [
+      {
+        "name": "한국공항공사 사장 초빙공고자세히보기",
+        "url": "https://www.airport.co.kr/www/cms/frBoardCon/boardView.do?pageNo=1&pagePerCnt=15&MENU_ID=1100&CONTENTS_NO=&SITE_NO=2&BOARD_SEQ=1&BBS_SEQ=3554474&PWD=&SEARCH_FLD=&SEARCH="
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=830"
+      },
+      {
+        "name": "입찰공지",
+        "url": "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=870"
+      },
+      {
+        "name": "계약절차",
+        "url": "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=2500"
+      },
+      {
+        "name": "자산임대/매각 입찰공고",
+        "url": "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=910"
+      },
+      {
+        "name": "규정 및 계약조건",
+        "url": "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=920"
+      },
+      {
+        "name": "입찰 및 계약 사용서식",
+        "url": "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=930"
+      },
+      {
+        "name": "계약정보",
+        "url": "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=840"
+      },
+      {
+        "name": "수의계약 정보공개",
+        "url": "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=940"
+      },
+      {
+        "name": "하도급계약자료 공개",
+        "url": "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=960"
+      },
+      {
+        "name": "공항시설사용료 후불계약",
+        "url": "https://www.airport.co.kr/www/cms/frCon/index.do?MENU_ID=1830"
+      },
+      {
+        "name": "면세품 구매",
+        "url": "https://www.airport.co.kr/booking/cms/frCon/index.do?MENU_ID=360"
+      },
+      {
+        "name": "한국공항공사 사장 초빙공고",
+        "url": "https://www.airport.co.kr/www/cms/frBoardCon/boardView.do?MENU_ID=1100&SITE_NO=2&BOARD_SEQ=1&BBS_SEQ=3554474"
+      },
+      {
+        "name": "노동조합 단체교섭 요구사실 공고",
+        "url": "https://www.airport.co.kr/www/cms/frBoardCon/boardView.do?MENU_ID=1100&SITE_NO=2&BOARD_SEQ=1&BBS_SEQ=3554470"
+      },
+      {
+        "name": "기획법무부2026.0601한국공항공사 사장 초빙공고",
+        "url": "https://www.airport.co.kr/ajaxa/menuCpnt/mainLink.do?GBN=BA&TEMP_CODE=kacKor&BASE_SITE_NO=2&CONFIG_CD=C1419&CONFIG_SEQ=1&SUB_SEQ=1&SITE_NO=2&BOARD_SEQ=1&BBS_SEQ=3554474"
+      },
+      {
+        "name": "위탁제도개선TF2026.0512노동조합 단체교섭 요구사실 공고",
+        "url": "https://www.airport.co.kr/ajaxa/menuCpnt/mainLink.do?GBN=BA&TEMP_CODE=kacKor&BASE_SITE_NO=2&CONFIG_CD=C1419&CONFIG_SEQ=1&SUB_SEQ=1&SITE_NO=2&BOARD_SEQ=1&BBS_SEQ=3554470"
+      },
+      {
+        "name": "지역상생협력부2026.0421「한국공항공사와 함께하는 2026년 전남지역 청소년 항공캠프」 제안서 모집 공고 (~'26.5.4.(월) 14:00)",
+        "url": "https://www.airport.co.kr/ajaxa/menuCpnt/mainLink.do?GBN=BA&TEMP_CODE=kacKor&BASE_SITE_NO=2&CONFIG_CD=C1419&CONFIG_SEQ=1&SUB_SEQ=1&SITE_NO=2&BOARD_SEQ=1&BBS_SEQ=3554468"
+      },
+      {
+        "name": "지역상생협력부2026.0414KAC와 함께하는 장애화가 지원 프로그램 제안서 모집 공고(~'26.4.27(월) 14:00)",
+        "url": "https://www.airport.co.kr/ajaxa/menuCpnt/mainLink.do?GBN=BA&TEMP_CODE=kacKor&BASE_SITE_NO=2&CONFIG_CD=C1419&CONFIG_SEQ=1&SUB_SEQ=1&SITE_NO=2&BOARD_SEQ=1&BBS_SEQ=3554466"
+      },
+      {
+        "name": "지역상생협력부2026.04012026년 한국공항공사와 함께하는 지역공부방 프로그램 사업 제안서 모집 공고(~'26.4.14(화) 14:00)",
+        "url": "https://www.airport.co.kr/ajaxa/menuCpnt/mainLink.do?GBN=BA&TEMP_CODE=kacKor&BASE_SITE_NO=2&CONFIG_CD=C1419&CONFIG_SEQ=1&SUB_SEQ=1&SITE_NO=2&BOARD_SEQ=1&BBS_SEQ=3554462"
+      },
+      {
+        "name": "운영사무실2026.0428한국공항공사, 조달청과 제안서 평가위원 공동활용 업무협약 체결",
+        "url": "https://www.airport.co.kr/ajaxa/menuCpnt/mainLink.do?GBN=BA&TEMP_CODE=kacKor&BASE_SITE_NO=2&CONFIG_CD=C1419&CONFIG_SEQ=1&SUB_SEQ=2&SITE_NO=2&BOARD_SEQ=41&BBS_SEQ=3554735"
+      }
+    ],
+    "한국자산관리공사": [
+      {
+        "name": "주요 입찰공고",
+        "url": "https://www.kamco.or.kr/portal/contents.do?mId=0701020000"
+      },
+      {
+        "name": "국유지 상 무허가 건축물 자진철거 및 명도 촉구 공시송달 공고",
+        "url": "https://www.kamco.or.kr/portal/bbs/view.do?mId=0701010000&ptIdx=380&bIdx=27547"
+      },
+      {
+        "name": "「나라키움 부산영도통합청사 신축사업」 설계공모 공고",
+        "url": "https://www.kamco.or.kr/portal/bbs/view.do?mId=0701020000&ptIdx=480&bIdx=27366"
+      }
+    ],
+    "한국에너지기술연구원": [
+      {
+        "name": "입찰정보",
+        "url": "https://ebid.kier.re.kr/noticeList.do?boardGbn=3"
+      }
+    ],
+    "서산시": [
+      {
+        "name": "공고/고시",
+        "url": "https://www.seosan.go.kr/www/contents.do?key=1258"
+      },
+      {
+        "name": "입찰공고",
+        "url": "https://www.seosan.go.kr/www/contents.do?key=1259"
+      },
+      {
+        "name": "분묘개장공고",
+        "url": "https://www.seosan.go.kr/www/selectBbsNttList.do?bbsNo=103&key=1262"
+      },
+      {
+        "name": "계약정보공개",
+        "url": "http://gyeyak.seosan.go.kr/"
+      },
+      {
+        "name": "공고/고시",
+        "url": "https://www.seosan.go.kr/www/sub.do?key=1258"
+      },
+      {
+        "name": "입찰정보",
+        "url": "https://www.seosan.go.kr/www/sub.do?key=1259"
+      }
+    ],
+    "한국광해광업공단": [
+      {
+        "name": "계약정보",
+        "url": "https://www.komir.or.kr/kor/32/vect/priv"
+      },
+      {
+        "name": "공사계약공개",
+        "url": "https://www.komir.or.kr/kor/31/vect"
+      },
+      {
+        "name": "계약심의회 회의록공개",
+        "url": "https://www.komir.or.kr/kor/article/ATCL5955c5bc3"
+      },
+      {
+        "name": "임원 청렴계약제",
+        "url": "https://www.komir.or.kr/kor/contents/82"
+      },
+      {
+        "name": "사규 제·개정공고",
+        "url": "https://www.komir.or.kr/kor/article/ATCL36a23cbe6"
+      }
+    ],
+    "한국시설물안전진단협회": [
+      {
+        "name": "입찰정보",
+        "url": "http://www.assi.or.kr/sub/bid/infomation2.asp"
+      },
+      {
+        "name": "건축물관리법 입찰",
+        "url": "http://www.assi.or.kr/sub/bid/infomation3.asp"
+      }
+    ],
+    "충청북도": [
+      {
+        "name": "계약정보",
+        "url": "https://www.chungbuk.go.kr/www/selectBbsNttList.do?bbsNo=29&key=276"
+      },
+      {
+        "name": "계약정보공개시스템",
+        "url": "http://contract.chungbuk.go.kr"
+      },
+      {
+        "name": "계약심사조회시스템",
+        "url": "https://www.chungbuk.go.kr/simsa/index.do"
+      },
+      {
+        "name": "학술용역",
+        "url": "https://www.chungbuk.go.kr/www/selectBbsNttList.do?bbsNo=31&key=282"
+      },
+      {
+        "name": "고시/공고",
+        "url": "https://www.chungbuk.go.kr/www/selectGosiPblancList.do?key=422"
+      },
+      {
+        "name": "타기관고시/공고",
+        "url": "https://www.chungbuk.go.kr/www/selectBbsNttList.do?bbsNo=61&key=423"
+      },
+      {
+        "name": "무연분묘공고",
+        "url": "https://www.chungbuk.go.kr/www/selectBbsNttList.do?bbsNo=73&key=509"
+      },
+      {
+        "name": "계약정보 공개시스템",
+        "url": "https://contract.chungbuk.go.kr/main/main.do"
+      },
+      {
+        "name": "고시/공고어곡천, 대가리천 지방하천정비사업 통합건설사업관리용역 공사감독자 배치기준(안) 공개 및 의견수렴 공고충청북도 공고 제2026 - 927호  어곡천 어곡1지구 및 대가리천 대가리지구 지방하천정비사업 통합건설사업관리용역 공사감독자 배치기준(안) 공개 및 의견수렴 공고   「건설기술 진흥법」제39조의2 및 「건설공사 사업관리방식 검토기준 및 업무수행지침」 제8조제3항에 따라 어곡천 어곡1지구 및 대가리천 대가리지구 지방하천정비사업 통합건설사업관리용역에 대한 공사감독자 배치기준(안)을 다음과 같이 공개하오니, 의견이 있는 경우 기간 내 제출하여 주시기 바랍니다.  2026. 6. 5. 충청북도지사자세히보기",
+        "url": "https://www.chungbuk.go.kr/www/selectGosiPblancView.do?key=422&no=68690"
+      },
+      {
+        "name": "고시/공고시항천 시항지구 지방하천정비사업 건설사업관리용역 공사감독자 배치기준(안) 공개 및 의견수렴 공고충청북도공고 제2026-926호  시항천 시항지구 지방하천정비사업 건설사업관리용역 공사감독자 배치기준(안) 공개 및 의견수렴 공고  「건설기술 진흥법」제39조의2 및 「건설공사 사업관리방식 검토기준 및 업무수행지침」 제8조제3항에 따라 시항천 시항지구 지방하천정비사업 건설사업관리용역에 대한 공사감독자 배치기준(안)을 다음과 같이 공개하오니, 의견이 있는 경우 기간 내 제출하여 주시기 바랍니다.  2026년 6월 5일 충 청 북 도 지 사자세히보기",
+        "url": "https://www.chungbuk.go.kr/www/selectGosiPblancView.do?key=422&no=68689"
+      },
+      {
+        "name": "고시/공고2026년 결혼·출산가정 대출이자 지원사업 수정 공고2026년 결혼·출산가정 대출이자 지원사업 붙임과 같이 수정 공고 합니다.자세히보기",
+        "url": "https://www.chungbuk.go.kr/www/selectGosiPblancView.do?key=422&no=68688"
+      }
+    ],
+    "대구지방환경청": [
+      {
+        "name": "공지·공고",
+        "url": "https://mcee.go.kr/daegu/web/index.do?menuId=719"
+      },
+      {
+        "name": "수의계약현황",
+        "url": "https://mcee.go.kr/daegu/web/index.do?menuId=10122"
+      },
+      {
+        "name": "공고",
+        "url": "https://mcee.go.kr/daegu/web/index.do?menuId=726"
+      },
+      {
+        "name": "「수질분야 시험분석용 초자 및 물품 구매」 입찰 공고",
+        "url": "https://mcee.go.kr/daegu/web/board/read.do?menuId=724&boardId=1868530&boardMasterId=167&condition.hideCate=1"
+      },
+      {
+        "name": "「수질분야 시험분석용 초자 및 물품 구매」 용역 사전규격 및 입찰계획",
+        "url": "https://mcee.go.kr/daegu/web/board/read.do?menuId=724&boardId=1867310&boardMasterId=167&condition.hideCate=1"
+      },
+      {
+        "name": "'26년 안전점검 및 성능평가 기술용역 PQ 접수현황 및 업무중복도 공개",
+        "url": "https://mcee.go.kr/daegu/web/board/read.do?menuId=724&boardId=1866240&boardMasterId=167&condition.hideCate=1"
+      },
+      {
+        "name": "영산강유역환경청 생태조사연구원 서류 심사 합격자 및 면접 심사 계획 공고",
+        "url": "https://mcee.go.kr/daegu/web/board/read.do?menuId=10148&boardId=1867830&boardMasterId=834&condition.hideCate=1"
+      }
+    ],
+    "제주지방항공청": [
+      {
+        "name": "2026-0528제주국제공항 항공기 소음영향도 조사용역 사업수행능력 세부평가기준(안) 의견조회",
+        "url": "https://www.molit.go.kr/jroa/USR/BORD0201/m_36279/DTL.jsp?id=jraa_5_1&mode=view&idx=268399"
+      },
+      {
+        "name": "2020-022420~21년 레이더관제상황분석시스템 유지관리용역20~21년 레이더관제상황분석시스템 유지관리 용역에 대한\r\n입찰공고를 붙임과 같이 알립니다.",
+        "url": "https://www.molit.go.kr/jroa/USR/tender/m_36285/mng.jsp?ID=29231"
+      },
+      {
+        "name": "2018년도 관제상황분석시스템 유지관리 용역03-06",
+        "url": "https://www.molit.go.kr/jroa/USR/tender/m_36285/mng.jsp?ID=27321"
+      },
+      {
+        "name": "'16년도 관제상황분석시스템 유지관리 용역03-10",
+        "url": "https://www.molit.go.kr/jroa/USR/tender/m_36285/mng.jsp?ID=25020"
+      },
+      {
+        "name": "제주공항 비상용 공항감시레이더(ASR) 외자 구매 설치10-22",
+        "url": "https://www.molit.go.kr/jroa/USR/tender/m_36285/mng.jsp?ID=24410"
+      },
+      {
+        "name": "제주국제공항 비상용 공항감시레이더(ASR) 구매설치 현장설명회 개최10-16",
+        "url": "https://www.molit.go.kr/jroa/USR/tender/m_36285/mng.jsp?ID=24385"
+      },
+      {
+        "name": "입찰안내 더보기",
+        "url": "https://www.molit.go.kr/jroa/USR/tender/m_36285/lst.jsp"
+      }
+    ],
+    "부산지방항공청": [
+      {
+        "name": "울릉공항 건설사업 어업보상계획 공고12-04",
+        "url": "https://www.molit.go.kr/broa/USR/BORD0201/m_11508/DTL.jsp?id=phc0401&mode=view&idx=6828"
+      },
+      {
+        "name": "공시송달(보상협의)공고(무안국제공항 활주로 연장공사)05-23",
+        "url": "https://www.molit.go.kr/broa/USR/BORD0201/m_11508/DTL.jsp?id=phc0401&mode=view&idx=6823"
+      },
+      {
+        "name": "울릉공항 건설사업 어업보상계획 공고04-10",
+        "url": "https://www.molit.go.kr/broa/USR/BORD0201/m_11508/DTL.jsp?id=phc0401&mode=view&idx=6822"
+      },
+      {
+        "name": "무안·울진 다변측정감시시설(MLAT)구축 구매·설치06-02",
+        "url": "https://www.molit.go.kr/broa/USR/tender/m_11515/mng.jsp?ID=29539"
+      },
+      {
+        "name": "대구공항 31R 계기착륙시설(LLZ/DME)현대화 구매04-25",
+        "url": "https://www.molit.go.kr/broa/USR/tender/m_11515/mng.jsp?ID=27584"
+      },
+      {
+        "name": "\"울산공항 항공정보통신시설(V/UHF/VCCS 등)구매설치\" 현장설명회 일정 공고04-20",
+        "url": "https://www.molit.go.kr/broa/USR/tender/m_11515/mng.jsp?ID=27575"
+      },
+      {
+        "name": "김해공항 공항감시레이더(ASR/SSR) 현대화 현장설명회 일정 공고06-05",
+        "url": "https://www.molit.go.kr/broa/USR/tender/m_11515/mng.jsp?ID=26746"
+      },
+      {
+        "name": "입찰안내 더보기",
+        "url": "https://www.molit.go.kr/broa/USR/tender/m_11515/lst.jsp"
+      }
+    ],
+    "서울지방항공청": [
+      {
+        "name": "2023-12132024년도 국유재산 경작용 대부 입찰공고(김제)상세사항 첨부파일(입찰 공고문) 참조",
+        "url": "https://www.molit.go.kr/sroa/USR/tender/m_35706/mng.jsp?ID=31729"
+      },
+      {
+        "name": "비행검사 항공기 신규도입에 따른 기존 항공기 활용방안 연구용역 재공고(긴급공고)05-06",
+        "url": "https://www.molit.go.kr/sroa/USR/tender/m_35706/mng.jsp?ID=30949"
+      },
+      {
+        "name": "비행검사 항공기 신규도입에 따른 기존 항공기 활용방안 연구용역04-22",
+        "url": "https://www.molit.go.kr/sroa/USR/tender/m_35706/mng.jsp?ID=30948"
+      },
+      {
+        "name": "2022년도 국유재산 경작용 사용허가 입찰공고(김제)11-16",
+        "url": "https://www.molit.go.kr/sroa/USR/tender/m_35706/mng.jsp?ID=30537"
+      },
+      {
+        "name": "청주국제공항 지상감시레이더(ASDE) 신설 구매 설치 사업 현장설명회 공고10-15",
+        "url": "https://www.molit.go.kr/sroa/USR/tender/m_35706/mng.jsp?ID=29708"
+      },
+      {
+        "name": "입찰안내 더보기",
+        "url": "https://www.molit.go.kr/sroa/USR/tender/m_35706/lst.jsp"
+      }
+    ],
+    "대전 동부교육지원청": [
+      {
+        "name": "계약자료실",
+        "url": "https://www.djdbe.go.kr/home/board/sectlibList.do?menu_cd=000117"
+      },
+      {
+        "name": "2026. 9. 1.자 대전옥계초등학교 교장 공모제 2차 공고2026-05-28",
+        "url": "https://www.djdbe.go.kr/home/board/brdDetail.do?menu_cd=000148&num=7855"
+      },
+      {
+        "name": "2026. 9. 1.자 대전옥계초등학교 교장 공모제 공고2026-05-18",
+        "url": "https://www.djdbe.go.kr/home/board/brdDetail.do?menu_cd=000148&num=7837"
+      },
+      {
+        "name": "2026. 3. 1.자 초등학교 교사 초빙 계획 공고2025-12-30",
+        "url": "https://www.djdbe.go.kr/home/board/brdDetail.do?menu_cd=000148&num=7545"
+      },
+      {
+        "name": "교습소 행정처분(2차 위반 교습정지)사전통지서 공시송달 공고문 게시(경상남도창원교육지원청, ~6. 16.)2026-06-05",
+        "url": "https://www.djdbe.go.kr/home/board/brdDetail.do?menu_cd=000149&num=7880"
+      },
+      {
+        "name": "교습소 행정처분(직권말소) 및 과태료 부과 사전통지 및 청문실시 공시송달 공고문 게시(서울특별시강남서초교육지원청, ~ 6. 12.)2026-06-02",
+        "url": "https://www.djdbe.go.kr/home/board/brdDetail.do?menu_cd=000149&num=7872"
+      },
+      {
+        "name": "교습소 행정처분(직권말소) 통지 공시송달 공고문 게시(인천광역시동부교육지원청, ~6. 10.)2026-05-28",
+        "url": "https://www.djdbe.go.kr/home/board/brdDetail.do?menu_cd=000149&num=7857"
+      },
+      {
+        "name": "교습소 행정처분(직권말소) 및 과태료 부과 사전통지 및 청문실시 공시송달 공고문 게시(서울특별시강남서초교육지원청, ~6. 5.)2026-05-26",
+        "url": "https://www.djdbe.go.kr/home/board/brdDetail.do?menu_cd=000149&num=7847"
+      },
+      {
+        "name": "평생교육시설 행정처분(평생교육과정 폐쇄) 공시송달 공고문 게시(서울특별시강동송파교육지원청)2026-05-06",
+        "url": "https://www.djdbe.go.kr/home/board/brdDetail.do?menu_cd=000149&num=7814"
+      },
+      {
+        "name": "고시·공고 더보기",
+        "url": "https://www.djdbe.go.kr/home/board/brdList.do?menu_cd=000149"
+      }
+    ],
+    "대전 서부교육지원청": [
+      {
+        "name": "고시대장",
+        "url": "https://www.djsbe.go.kr/home/gosi/list.do?menu_cd=000139"
+      },
+      {
+        "name": "공고대장",
+        "url": "https://www.djsbe.go.kr/home/gonggo/list.do?menu_cd=000140"
+      },
+      {
+        "name": "고시공고게시판",
+        "url": "https://www.djsbe.go.kr/home/board/brdList.do?menu_cd=000141"
+      },
+      {
+        "name": "공시송달공고",
+        "url": "https://www.djsbe.go.kr/home/board/brdList.do?menu_cd=000035"
+      },
+      {
+        "name": "2026년 제1회 초등학교 졸업학력 검정고시 합격자 중학교 입학 배정 계획 공고2026-04-07",
+        "url": "https://www.djsbe.go.kr/home/board/brdDetail.do?menu_cd=000141&num=10568"
+      },
+      {
+        "name": "교육환경보호구역 설정 고시2026-03-13",
+        "url": "https://www.djsbe.go.kr/home/board/brdDetail.do?menu_cd=000141&num=10452"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+# API 키 — 절대 올리지 말 것
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# 빌드
+dist/
+build/
+*.spec
+!안전점검_모니터링.spec
+
+# 런타임 데이터 (로컬 전용)
+data/history.json
+logs/
+results/
+gui_out.log
+gui_err.log
+
+# 임시 파일
+*.tmp
+*.bak
