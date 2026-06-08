@@ -81,7 +81,7 @@ if _dotenv_available:
 # --------------------------------------------------------------------------- #
 # 초기 1회성 작업이므로 정확도 최우선 — haiku가 아닌 sonnet 사용
 CLAUDE_MODEL = "claude-sonnet-4-20250514"
-GEMINI_MODEL = "gemini-2.0-flash"
+GEMINI_MODEL = "gemini-2.5-flash"
 
 TIMEOUT = 10          # 접속 타임아웃 (초)
 RETRY = 1             # 재시도 1회 (총 2회 시도)

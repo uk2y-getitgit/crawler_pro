@@ -17,6 +17,13 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+# verify=False 우회 시 발생하는 InsecureRequestWarning 소음 억제
+try:
+    import urllib3
+    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+except Exception:
+    pass
+
 try:
     import openpyxl
 except ImportError as e:  # pragma: no cover
@@ -68,6 +75,7 @@ def _env_int(name, default):
 
 CRAWL_DELAY = _env_int("CRAWL_DELAY", 2)
 MAX_PAGES = _env_int("MAX_PAGES", 3)
+SEARCH_DAYS = _env_int("SEARCH_DAYS", 3)  # 게시일이 최근 N일 이내인 공고만 통과
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -75,8 +83,8 @@ USER_AGENT = (
     "Chrome/124.0.0.0 Safari/537.36"
 )
 
-TIMEOUT = 10          # 초
-RETRY = 1             # 재시도 1회 (총 2회 시도)
+TIMEOUT = 15          # 초
+RETRY = 2             # 재시도 2회 (총 3회 시도, 각 시도마다 verify True/False)
 FAIL_THRESHOLD = 3    # 연속 실패 임계치 -> 점검필요 표시
 HISTORY_MONTHS = 6    # 6개월 지난 항목 삭제
 
@@ -91,23 +99,70 @@ SELECTOR_STRATEGY = [
 ]
 
 
+# 제목 뒤에 붙은 메타정보(작성자/작성일 등) 절단용 — 행 전체를 긁은 경우 정제
+_TITLE_CUT_MARKERS = ("작성자", "작성일", "등록일", "게시일", "조회수", "조회 ",
+                      "첨부", "담당자", "담당부서", "작성부서")
+# 제목 앞 라벨 제거 대상
+_TITLE_LEAD_LABELS = ("제목", "제목:", "제목 :", "공지", "[공지]")
+
+
+def _clean_title(raw_text, anchor=None):
+    """게시글 제목을 정제한다.
+    - anchor의 title 속성이 더 길면 그것을 사용(목록 잘림 보완)
+    - 선두 '제목/공지' 라벨 제거
+    - '작성자/작성일' 등 메타정보가 뒤에 붙은 경우(행 전체를 긁음) 절단
+    """
+    t = (raw_text or "").strip()
+    if anchor is not None:
+        try:
+            attr = (anchor.get("title") or "").strip()
+        except Exception:
+            attr = ""
+        if len(attr) > len(t):
+            t = attr
+    # 연속 공백 정리
+    t = " ".join(t.split())
+    # 선두 라벨 제거
+    for lead in _TITLE_LEAD_LABELS:
+        if t.startswith(lead):
+            t = t[len(lead):].strip(" :\t-")
+            break
+    # 메타정보 절단 (제목이 어느 정도 있은 뒤 등장할 때만)
+    for m in _TITLE_CUT_MARKERS:
+        idx = t.find(m)
+        if idx > 4:
+            t = t[:idx].strip()
+    return t.strip()
+
+
 def _is_valid_post_link(text, href):
-    """제목 링크로 보이는지 휴리스틱 검사."""
-    if not href:
-        return False
-    href = href.strip()
-    if href in ("#", "", "javascript:;") or href.lower().startswith("javascript"):
-        # javascript:fnView(...) 같은 onclick 기반은 URL 없는 게시글로 별도 처리
-        return False
+    """제목 링크로 보이는지 휴리스틱 검사.
+
+    href가 javascript:fnView(...) 형태여도 제목이 유효하면 게시글로 인정한다.
+    (관공서 게시판 다수가 onclick/javascript로 상세를 여는데, 이를 버리면
+    게시글이 0건이 된다. URL은 _extract_posts에서 게시판 목록 URL로 대체한다.)
+    """
     text = (text or "").strip()
-    if len(text) < 2:
+    if len(text) < 3:
         return False
     # 페이지네이션/메뉴성 텍스트 제외
     lowered = text.lower()
-    skip_words = ("다음", "이전", "처음", "마지막", "more", "목록", "검색", "로그인", "home")
+    skip_words = ("다음", "이전", "처음", "마지막", "more", "목록", "검색", "로그인",
+                  "home", "더보기", "바로가기", "메뉴", "닫기", "전체보기", "rss")
     if lowered in skip_words or text in ("1", "2", "3", "4", "5"):
         return False
+    if text.replace(",", "").isdigit():   # 번호/조회수 등 순수 숫자 셀 제외
+        return False
+    if any(s in text for s in ("바로가기",)):
+        return False
     return True
+
+
+def _is_js_href(href):
+    """href가 직접 이동 불가한 형태(javascript/앵커/빈값)인지."""
+    h = (href or "").strip()
+    return (not h) or h == "#" or h.startswith("#") or \
+        h.lower().startswith("javascript")
 
 
 class Crawler:
@@ -121,9 +176,12 @@ class Crawler:
         self.ai_agent = ai_agent
 
         self.errors = []          # 오류로그용
+        self.excluded = []        # 제외 게시글(날짜/AI) + 사유 — 추적·감사용
         self.history = self._load_history()
         # 연속 실패 카운트 추적용 (메모리 내)
         self._fail_counts = {}
+        # 심화(Playwright) 페처 — 첫 심화 사이트에서 지연 생성, run 종료 시 정리
+        self._deep_fetcher = None
         # 중단 플래그 (GUI/스레드에서 stop() 호출 시 set). 사이트 경계에서만
         # 검사하므로 진행 중인 단일 사이트 수집·파일 저장이 중간에 끊기지 않는다.
         self._stop_requested = False
@@ -184,6 +242,28 @@ class Crawler:
             return url
         return f"{title}_{date}"
 
+    @staticmethod
+    def _within_date_window(date_str):
+        """게시일이 최근 SEARCH_DAYS일 이내인지 판정.
+        반환 (통과여부, 사유). 날짜를 못 읽으면 통과시킨다(누락 방지)."""
+        if SEARCH_DAYS <= 0:
+            return True, ""
+        dt = _parse_date(date_str)
+        if dt is None:
+            return True, "날짜미상(포함)"
+        cutoff = datetime.now() - timedelta(days=SEARCH_DAYS)
+        # 날짜 단위 비교 (시각 무시)
+        if dt.date() >= cutoff.date():
+            return True, ""
+        return False, f"게시일 {dt.strftime('%Y-%m-%d')} ({SEARCH_DAYS}일 초과)"
+
+    def _record_excluded(self, base, reason):
+        """제외 게시글을 사유와 함께 기록한다."""
+        item = dict(base)
+        item["exclude_reason"] = reason
+        item["ai_reason"] = reason
+        self.excluded.append(item)
+
     # ------------------------------------------------------------------ sites
     def _load_sites(self):
         wb = openpyxl.load_workbook(self.sites_path)
@@ -216,24 +296,55 @@ class Crawler:
             "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
         }
         last_err = None
+        # 매 시도마다 verify=True → 실패 시 verify=False로도 시도한다.
+        # 정부서버는 GPKI 인증서 문제(SSLError)뿐 아니라 핸드셰이크 중
+        # 연결 리셋(ConnectionError)도 잦은데, verify=False로 우회되는 경우가 많다.
         for attempt in range(RETRY + 1):
-            try:
-                resp = requests.get(url, headers=headers, timeout=TIMEOUT,
-                                    verify=True)
-                return resp.status_code, resp.text, None
-            except requests.exceptions.SSLError as e:
-                # 일부 공공기관 인증서 문제 -> verify=False 재시도
+            for verify in (True, False):
                 try:
                     resp = requests.get(url, headers=headers, timeout=TIMEOUT,
-                                        verify=False)
+                                        verify=verify)
                     return resp.status_code, resp.text, None
-                except Exception as e2:
-                    last_err = f"SSL/{e2}"
-            except requests.exceptions.RequestException as e:
-                last_err = str(e)
+                except requests.exceptions.RequestException as e:
+                    last_err = str(e)
+                    continue
             if attempt < RETRY:
-                time.sleep(1)
+                time.sleep(1.5 * (attempt + 1))  # 지수 백오프
         return None, None, last_err
+
+    @staticmethod
+    def _is_deep(site):
+        """site_type이 '심화'면 Playwright 경로를 사용한다."""
+        return str(site.get("site_type") or "").strip() == "심화"
+
+    def _get_deep_fetcher(self):
+        """심화 페처를 지연 생성하여 재사용한다(브라우저 1회 기동)."""
+        if self._deep_fetcher is None:
+            from modules.playwright_crawler import DeepFetcher  # 지연 임포트
+            df = DeepFetcher(headless=True)
+            df.start()
+            self._deep_fetcher = df
+            logger.info("  심화 엔진(Playwright/Chromium) 기동")
+        return self._deep_fetcher
+
+    def _close_deep_fetcher(self):
+        if self._deep_fetcher is not None:
+            try:
+                self._deep_fetcher.close()
+            except Exception as e:
+                logger.warning(f"심화 페처 종료 오류: {e}")
+            self._deep_fetcher = None
+
+    def _fetch_deep(self, url):
+        """심화 사이트를 브라우저로 렌더링. (status, html, error) — _fetch와 동일 시그니처."""
+        try:
+            df = self._get_deep_fetcher()
+            status, html, final, err = df.fetch(url)
+            if err is not None:
+                return None, None, err
+            return status, html, None
+        except Exception as e:
+            return None, None, f"심화엔진오류: {type(e).__name__}: {str(e)[:100]}"
 
     # ------------------------------------------------------------- extract
     def _extract_posts(self, html, base_url):
@@ -247,14 +358,24 @@ class Crawler:
             posts = []
             seen = set()
             for a in anchors:
-                title = a.get_text(strip=True)
+                raw = a.get_text(strip=True)
                 href = a.get("href", "")
-                if not _is_valid_post_link(title, href):
+                if not _is_valid_post_link(raw, href):
                     continue
-                full_url = urljoin(base_url, href)
-                if full_url in seen:
+                title = _clean_title(raw, a)
+                if len(title) < 3:
                     continue
-                seen.add(full_url)
+                # javascript/앵커 링크는 상세 직접이동이 불가 → 게시판 목록 URL로 대체.
+                # (제목 기반 AI 판정은 그대로 동작하고, 사용자는 목록에서 원문 확인)
+                if _is_js_href(href):
+                    full_url = base_url
+                    key = ("js", title)        # 목록URL 공유 → 제목으로 중복제거
+                else:
+                    full_url = urljoin(base_url, href)
+                    key = full_url
+                if key in seen:
+                    continue
+                seen.add(key)
                 date = _find_date_near(a)
                 posts.append({"title": title, "url": full_url, "date": date})
             if posts:
@@ -337,7 +458,7 @@ class Crawler:
                 for post in site_posts:
                     key = self._make_key(post["title"], post["date"], post["url"])
                     is_new = key not in self.history["items"]
-                    result = {
+                    base = {
                         "agency": agency,
                         "board_name": board_name,
                         "title": post["title"],
@@ -346,14 +467,27 @@ class Crawler:
                         "is_new": is_new,
                         "ai_reason": "",
                     }
-                    results.append(result)
+
+                    # 게시일 조건 검사 — 기간 밖이면 제외(사유 기록), 결과에서 빼고
+                    # history에는 기록해 다음 실행 때 재처리하지 않는다.
+                    within, date_reason = self._within_date_window(post["date"])
+                    if not within:
+                        if is_new:
+                            self._record_excluded(base, date_reason)
+                            self.history["items"][key] = {
+                                "title": post["title"], "date": post["date"],
+                                "agency": agency,
+                            }
+                        continue
+
+                    results.append(base)
                     if is_new:
                         self.history["items"][key] = {
                             "title": post["title"],
                             "date": post["date"],
                             "agency": agency,
                         }
-                        self._emit("post_found", result)
+                        self._emit("post_found", base)
 
             # 사이트 간 딜레이 (마지막 사이트 제외).
             # 중단 요청이 들어오면 즉시 빠져나올 수 있도록 1초 단위로 끊어 잔다.
@@ -371,9 +505,18 @@ class Crawler:
             except Exception as e:
                 logger.warning(f"sites.xlsx 저장 실패: {e}")
 
+        # 심화 브라우저 정리(수집 종료 후 더 이상 불필요)
+        self._close_deep_fetcher()
+
         # AI 필터 적용: 수집한 게시글 중 '안전점검 수행기관 지정공고'만 선별
         collected = len(results)
-        results = self._apply_ai_filter(results)
+        candidates = results
+        results = self._apply_ai_filter(candidates)
+        # AI가 제외한 게시글(통과하지 못한 것)을 사유와 함께 기록한다.
+        matched_ids = {id(m) for m in results}
+        for r in candidates:
+            if id(r) not in matched_ids and r.get("is_new"):
+                self._record_excluded(r, "AI 제외: 안전점검 수행기관 지정공고 아님")
 
         self._save_history()
         self._emit("complete", {
@@ -421,10 +564,14 @@ class Crawler:
 
     def _crawl_site(self, site):
         """단일 사이트 전체 페이지 수집. (posts, error)"""
+        deep = self._is_deep(site)
         all_posts = []
         seen_urls = set()
         for page_url in self._board_pages(site):
-            status, html, err = self._fetch(page_url)
+            if deep:
+                status, html, err = self._fetch_deep(page_url)
+            else:
+                status, html, err = self._fetch(page_url)
             if err is not None:
                 # 첫 페이지 실패면 사이트 실패, 2페이지 이후 실패는 무시
                 if page_url == site["url"]:
@@ -442,9 +589,11 @@ class Crawler:
             if selector:
                 logger.info(f"  선택자 매칭: '{selector}' -> {len(posts)}건")
             for p in posts:
-                if p["url"] in seen_urls:
+                # javascript 게시글은 URL이 목록주소로 동일 → 제목까지 묶어 중복제거
+                dedup_key = (p["title"], p["url"])
+                if dedup_key in seen_urls:
                     continue
-                seen_urls.add(p["url"])
+                seen_urls.add(dedup_key)
                 all_posts.append(p)
         return all_posts, None
 

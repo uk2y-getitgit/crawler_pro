@@ -13,6 +13,11 @@ import os
 # BASE_DIR 패턴 (EXE/스크립트 양쪽 호환)
 if getattr(sys, "frozen", False):
     BASE_DIR = os.path.dirname(sys.executable)
+    # 심화 크롤링용 번들 Chromium을 Playwright가 찾도록 경로 지정.
+    # (PyInstaller datas → _internal/ms-playwright 에 동봉됨)
+    _bundled = os.path.join(getattr(sys, "_MEIPASS", BASE_DIR), "ms-playwright")
+    if os.path.isdir(_bundled):
+        os.environ.setdefault("PLAYWRIGHT_BROWSERS_PATH", _bundled)
 else:
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 

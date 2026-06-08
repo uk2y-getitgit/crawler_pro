@@ -29,3 +29,10 @@ project/게시판_일괄등록_템플릿.xlsx
 # ── 로컬 원본 데이터 (개인 파일) ──
 site_list*.xlsx
 건축물점검*.xlsx
+
+# ── 백업/진단 산출물 (로컬 전용, 재생성 가능) ──
+project/config/*.backup.xlsx
+project/config/*.prev.xlsx
+project/config/*.ifbak
+project/config/sites_diagnosis.xlsx
+project/config/sites_failed.xlsx

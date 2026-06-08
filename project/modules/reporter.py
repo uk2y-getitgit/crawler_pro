@@ -36,6 +36,10 @@ POST_HEADERS = [
     "신규여부", "수집일시", "기관명", "게시판명",
     "게시글제목", "게시일", "URL", "AI판단근거",
 ]
+EXCLUDED_HEADERS = [
+    "신규여부", "수집일시", "기관명", "게시판명",
+    "게시글제목", "게시일", "URL", "제외사유",
+]
 ERROR_HEADERS = ["기관명", "게시판URL", "오류내용", "재시도횟수", "처리결과"]
 
 YELLOW_FILL = PatternFill(start_color="FFFF99", end_color="FFFF99",
@@ -58,8 +62,9 @@ class Reporter:
             self.results_dir = os.path.join(self.base_dir, results_dir)
         os.makedirs(self.results_dir, exist_ok=True)
 
-    def save(self, results, errors=None, filename=None):
+    def save(self, results, errors=None, filename=None, excluded=None):
         errors = errors or []
+        excluded = excluded or []
         now = datetime.now()
         collected_at = now.strftime("%Y-%m-%d %H:%M")
         if filename is None:
@@ -83,13 +88,21 @@ class Reporter:
         )
         self._write_posts_sheet(ws_all, all_sorted, collected_at, highlight=False)
 
-        # 3) 오류로그
+        # 3) 제외공고 (AI 제외 + 게시일 초과) — 통과/제외 추적용
+        ws_ex = wb.create_sheet("제외공고")
+        ex_sorted = sorted(excluded, key=lambda r: (r.get("date") or ""),
+                           reverse=True)
+        self._write_posts_sheet(ws_ex, ex_sorted, collected_at,
+                                highlight=False, headers=EXCLUDED_HEADERS)
+
+        # 4) 오류로그
         ws_err = wb.create_sheet("오류로그")
         self._write_error_sheet(ws_err, errors)
 
         wb.save(out_path)
         logger.info(f"엑셀 저장: {out_path} "
-                    f"(신규 {len(new_items)} / 전체 {len(results)} / 오류 {len(errors)})")
+                    f"(신규 {len(new_items)} / 전체 {len(results)} / "
+                    f"제외 {len(excluded)} / 오류 {len(errors)})")
         return out_path
 
     # ------------------------------------------------------------- internals
@@ -101,8 +114,9 @@ class Reporter:
             cell.alignment = Alignment(horizontal="center", vertical="center")
             cell.border = BORDER
 
-    def _write_posts_sheet(self, ws, items, collected_at, highlight):
-        self._write_header(ws, POST_HEADERS)
+    def _write_posts_sheet(self, ws, items, collected_at, highlight,
+                           headers=None):
+        self._write_header(ws, headers or POST_HEADERS)
         for r, item in enumerate(items, start=2):
             is_new = item.get("is_new")
             values = [

@@ -77,7 +77,7 @@ except ImportError:
 # 상수
 # --------------------------------------------------------------------------- #
 CLAUDE_MODEL   = "claude-haiku-4-5-20251001"
-GEMINI_MODEL   = "gemini-2.0-flash"
+GEMINI_MODEL   = "gemini-2.5-flash"
 BATCH_SIZE     = 30
 MAX_RETRY      = 3
 KEYWORDS_PATH_DEFAULT = "config/keywords.json"
@@ -273,11 +273,15 @@ class BaseFilterAgent(abc.ABC):
                 matched_all.extend(keyword_fallback_filter(posts[b * BATCH_SIZE:], self.keywords_path))
                 return matched_all
             except _BatchParseError as e:
-                logger.warning(f"[{self.provider_name}] 배치 {b+1} 파싱 실패, 수동확인: {e}")
-                for post in batch:
-                    post["ai_reason"] = "AI 응답 파싱 실패 — 수동확인 필요"
-                matched_all.extend(batch)
-                self._emit("ai_batch_manual", {"batch": b + 1, "size": len(batch)})
+                # 파싱 실패 시 배치 전체를 포함하면(fail-open) 정밀도가 무너진다.
+                # 정밀도 최우선 원칙에 따라, 해당 배치는 키워드 폴백으로만 선별한다.
+                logger.warning(f"[{self.provider_name}] 배치 {b+1} 파싱 실패, 키워드 폴백 적용: {e}")
+                fb = keyword_fallback_filter(batch, self.keywords_path)
+                for post in fb:
+                    post["ai_reason"] = (post.get("ai_reason") or "") + " (AI 파싱실패→키워드선별)"
+                matched_all.extend(fb)
+                self._emit("ai_batch_manual",
+                           {"batch": b + 1, "size": len(batch), "kept": len(fb)})
 
         return matched_all
 
@@ -387,13 +391,20 @@ class GeminiFilterAgent(BaseFilterAgent):
         delay, last_err = 1.0, None
         for attempt in range(MAX_RETRY):
             try:
+                # gemini-2.5-flash는 thinking이 기본 ON이라 출력 토큰을 소진해
+                # JSON이 잘려 파싱 실패한다 → thinking 비활성 + JSON모드 + 토큰 확대.
+                cfg_kwargs = dict(
+                    system_instruction=SYSTEM_PROMPT,
+                    max_output_tokens=8192,
+                    response_mime_type="application/json",
+                )
+                if hasattr(_genai_types, "ThinkingConfig"):
+                    cfg_kwargs["thinking_config"] = _genai_types.ThinkingConfig(
+                        thinking_budget=0)
                 resp = self.model.models.generate_content(
                     model=GEMINI_MODEL,
                     contents=user_msg,
-                    config=_genai_types.GenerateContentConfig(
-                        system_instruction=SYSTEM_PROMPT,
-                        max_output_tokens=2048,
-                    ),
+                    config=_genai_types.GenerateContentConfig(**cfg_kwargs),
                 )
                 return resp.text or ""
             except Exception as e:

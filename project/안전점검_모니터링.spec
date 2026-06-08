@@ -28,10 +28,27 @@
 """
 
 import os
+from PyInstaller.utils.hooks import collect_all
 
 block_cipher = None
 
 APP_NAME = "안전점검_모니터링"
+
+# ---------------------------------------------------------------------------
+# Playwright(심화 크롤링) 번들
+#   - 패키지 + node 드라이버: collect_all('playwright')
+#   - Chromium 브라우저: 시스템 캐시(ms-playwright/chromium-1117)를
+#     _internal/ms-playwright 로 동봉 → 다른 PC에서도 심화 동작.
+#     (main.py 가 frozen 시 PLAYWRIGHT_BROWSERS_PATH 를 이 경로로 지정)
+# ---------------------------------------------------------------------------
+pw_datas, pw_binaries, pw_hiddenimports = collect_all("playwright")
+
+_ms = os.path.join(os.environ.get("LOCALAPPDATA", ""), "ms-playwright")
+_browser_datas = []
+for _sub in ("chromium-1117", "winldd-1007"):
+    _src = os.path.join(_ms, _sub)
+    if os.path.isdir(_src):
+        _browser_datas.append((_src, os.path.join("ms-playwright", _sub)))
 
 
 # ---------------------------------------------------------------------------
@@ -40,8 +57,9 @@ APP_NAME = "안전점검_모니터링"
 #   config/ 는 사용자가 직접 수정하는 파일이므로 EXE 옆 외부 폴더로 복사한다
 #   (datas 에 넣으면 _internal/config 로 들어가 BASE_DIR 경로와 불일치).
 #   -> config/, data/, results/, logs/ 는 build.bat 후처리에서 복사.
+#   Playwright 패키지/드라이버 + Chromium 브라우저는 여기서 동봉한다.
 # ---------------------------------------------------------------------------
-datas = []
+datas = pw_datas + _browser_datas
 
 
 # ---------------------------------------------------------------------------
@@ -76,7 +94,10 @@ hiddenimports = [
     "dotenv",
     "schedule",
     "loguru",
-]
+    # 심화 크롤링(Playwright)
+    "playwright",
+    "playwright.sync_api",
+] + pw_hiddenimports
 # 주의: PIL(Pillow)은 본 프로젝트에서 실제로 import 되지 않으며 설치되어 있지
 # 않으므로 hiddenimports 에 포함하지 않는다(포함 시 불필요한 경고 발생).
 
@@ -84,7 +105,7 @@ hiddenimports = [
 a = Analysis(
     ["main.py"],
     pathex=[],
-    binaries=[],
+    binaries=pw_binaries,
     datas=datas,
     hiddenimports=hiddenimports,
     hookspath=[],
@@ -114,7 +135,7 @@ exe = EXE(
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
-    upx=True,
+    upx=False,
     console=False,                 # --windowed (콘솔 창 숨김)
     disable_windowed_traceback=False,
     argv_emulation=False,
@@ -130,7 +151,7 @@ coll = COLLECT(
     a.zipfiles,
     a.datas,
     strip=False,
-    upx=True,
+    upx=False,
     upx_exclude=[],
     name=APP_NAME,                 # -> dist/안전점검_모니터링/
 )

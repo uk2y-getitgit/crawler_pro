@@ -235,6 +235,7 @@ class MainWindow(QMainWindow):
         self._scheduler_thread = None
         self._results  = []
         self._errors   = []
+        self._excluded = []   # 제외 게시글(날짜/AI) — 엑셀 제외공고 시트용
 
         self.setWindowTitle("안전점검 수행기관 모니터링")
         self.resize(1180, 760)
@@ -347,6 +348,12 @@ class MainWindow(QMainWindow):
         self.lbl_new.setProperty("chip_new", True)
         result_header.addWidget(self.lbl_total)
         result_header.addWidget(self.lbl_new)
+        btn_load = QPushButton("최근 결과 불러오기")
+        btn_load.setProperty("secondary", True)
+        btn_load.setFixedWidth(140)
+        btn_load.setToolTip("results 폴더의 가장 최근 결과 엑셀을 표에 불러옵니다")
+        btn_load.clicked.connect(self._load_latest_results)
+        result_header.addWidget(btn_load)
         btn_excel = QPushButton("엑셀 저장")
         btn_excel.setProperty("success", True)
         btn_excel.setFixedWidth(90)
@@ -606,10 +613,13 @@ class MainWindow(QMainWindow):
     def _on_crawl_done(self, results, errors):
         self._results = results
         self._errors  = errors
+        self._excluded = getattr(self._crawler_thread, "excluded", []) or []
         self._update_board_filter_combo()
         self._apply_filters()
         new_count = sum(1 for r in results if r.get("is_new"))
-        msg = f"완료 — 총 {len(results)}건 (신규 {new_count}건, 오류 {len(errors)}건)"
+        ex_count = len(self._excluded)
+        msg = (f"완료 — 통과 {len(results)}건 (신규 {new_count}) / "
+               f"제외 {ex_count} / 오류 {len(errors)}")
         self.status.showMessage(msg)
         self._log(f"━ {msg} ━")
 
@@ -694,12 +704,56 @@ class MainWindow(QMainWindow):
                 f = cell.font()
                 f.setBold(True)
                 cell.setFont(f)
+            if c == 5 and str(val).startswith("http"):
+                # URL 컬럼 — 링크처럼 표시(파란색·밑줄) + 안내 툴팁
+                cell.setForeground(QColor("#0563C1"))
+                f = cell.font()
+                f.setUnderline(True)
+                cell.setFont(f)
+                cell.setToolTip("더블클릭하면 원문 게시글을 브라우저로 엽니다")
             self.table.setItem(row, c, cell)
 
     def _open_url(self, row, col):
         url_item = self.table.item(row, 5)
         if url_item and url_item.text().startswith("http"):
             QDesktopServices.openUrl(QUrl(url_item.text()))
+
+    def _load_latest_results(self):
+        """results 폴더의 가장 최근 결과 엑셀(신규공고 시트)을 표에 불러온다.
+        재크롤 없이 통과 게시글 + 원문 URL을 바로 확인할 수 있다."""
+        import glob
+        results_dir = os.path.join(self.base_dir, "results")
+        files = glob.glob(os.path.join(results_dir, "결과_*.xlsx"))
+        if not files:
+            QMessageBox.information(self, "최근 결과", "results 폴더에 결과 파일이 없습니다.")
+            return
+        latest = max(files, key=os.path.getmtime)
+        try:
+            import openpyxl
+            wb = openpyxl.load_workbook(latest, read_only=True, data_only=True)
+            ws = wb["신규공고"] if "신규공고" in wb.sheetnames else wb.active
+            loaded = []
+            for row in list(ws.iter_rows(values_only=True))[1:]:
+                if not row or not any(row):
+                    continue
+                # POST_HEADERS: 신규여부,수집일시,기관명,게시판명,게시글제목,게시일,URL,AI판단근거
+                loaded.append({
+                    "is_new": str(row[0]).strip() == "신규",
+                    "agency": row[2] or "", "board_name": row[3] or "",
+                    "title": row[4] or "", "date": row[5] or "",
+                    "url": row[6] or "", "ai_reason": row[7] or "",
+                })
+            wb.close()
+        except Exception as e:
+            QMessageBox.warning(self, "불러오기 실패", f"결과 파일 읽기 오류:\n{e}")
+            return
+        self._results = loaded
+        self._excluded = []
+        self._update_board_filter_combo()
+        self._apply_filters()
+        self._log(f"최근 결과 불러옴: {os.path.basename(latest)} ({len(loaded)}건)")
+        self.status.showMessage(
+            f"최근 결과 {len(loaded)}건 불러옴 — {os.path.basename(latest)}")
 
     # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 엑셀 저장
     def _save_excel(self):
@@ -717,7 +771,8 @@ class MainWindow(QMainWindow):
                 results_dir=os.path.dirname(path) or default,
                 base_dir=self.base_dir)
             out = reporter.save(self._results, self._errors,
-                                filename=os.path.basename(path))
+                                filename=os.path.basename(path),
+                                excluded=self._excluded)
             self._log(f"엑셀 저장 완료: {out}")
             QMessageBox.information(self, "엑셀 저장", f"저장 완료:\n{out}")
         except PermissionError:

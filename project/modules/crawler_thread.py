@@ -47,6 +47,7 @@ class CrawlerThread(QThread):
         self.site_filter = site_filter
         self.base_dir = base_dir
         self._crawler = None  # stop()에서 참조
+        self.excluded = []    # 제외 게시글(날짜/AI) — 완료 후 GUI가 참조
 
     # ------------------------------------------------------------------ run
     def run(self):
@@ -65,6 +66,7 @@ class CrawlerThread(QThread):
             self._crawler = crawler
 
             results = crawler.run(site_filter=self.site_filter)
+            self.excluded = crawler.excluded
             # 완료 — 결과/오류 전달. emit 후 run()이 반환되면 스레드가 자연 종료된다.
             self.result_ready.emit(results, crawler.errors)
         except Exception as e:  # 치명 오류 — 스레드는 정상 종료시키되 알림

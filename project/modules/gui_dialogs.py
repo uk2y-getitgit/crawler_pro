@@ -154,6 +154,13 @@ class SettingsDialog(QDialog):
         self.maxpages_spin = QSpinBox()
         self.maxpages_spin.setRange(1, 20)
         crawl_form.addRow("최대 페이지 수", self.maxpages_spin)
+
+        self.searchdays_spin = QSpinBox()
+        self.searchdays_spin.setRange(0, 365)
+        self.searchdays_spin.setSuffix(" 일")
+        self.searchdays_spin.setToolTip("게시일이 최근 N일 이내인 공고만 통과 "
+                                        "(0 = 날짜 제한 없음)")
+        crawl_form.addRow("게시일 기간", self.searchdays_spin)
         layout.addWidget(crawl_box)
 
         # --- 스케줄 설정 ---
@@ -192,6 +199,10 @@ class SettingsDialog(QDialog):
             self.maxpages_spin.setValue(int(self._env.get("MAX_PAGES", 3)))
         except (TypeError, ValueError):
             self.maxpages_spin.setValue(3)
+        try:
+            self.searchdays_spin.setValue(int(self._env.get("SEARCH_DAYS", 3)))
+        except (TypeError, ValueError):
+            self.searchdays_spin.setValue(3)
 
         self.sched_enabled.setChecked(
             str(self._env.get("SCHEDULE_ENABLED", "N")).upper() == "Y")
@@ -207,6 +218,7 @@ class SettingsDialog(QDialog):
             "AI_PROVIDER": self.provider_combo.currentData(),
             "CRAWL_DELAY": self.delay_spin.value(),
             "MAX_PAGES": self.maxpages_spin.value(),
+            "SEARCH_DAYS": self.searchdays_spin.value(),
             "SCHEDULE_ENABLED": "Y" if self.sched_enabled.isChecked() else "N",
             "SCHEDULE_TIME": self.sched_time.time().toString("HH:mm"),
         }
@@ -396,6 +408,26 @@ COLOR_OK   = QColor("#C8E6C9")   # 연초록 — 게시판 등록됨
 COLOR_FAIL = QColor("#FFCDD2")   # 연빨강 — 미등록
 COLOR_PART = QColor("#FFF9C4")   # 연노랑 — 일부만 등록
 
+# 게시판 행(활성화 상태) 색상
+COLOR_ACTIVE   = QColor("#FFFFFF")   # 흰색 — 크롤링 가능(활성 Y)
+COLOR_MANUAL   = QColor("#FFF9C4")   # 노랑 — 수동검색 필요(활성 N)
+COLOR_INACTIVE = QColor("#FFCDD2")   # 빨강 — 크롤링 불가(활성 N)
+
+# 수동검색으로 판단하는 비고 키워드
+_MANUAL_NOTE_KW = ("수동", "조회버튼", "헤더메뉴", "키워드 검색", "검색 필요",
+                   "개별 게시판", "나라장터")
+
+
+def _row_color_for(active, note):
+    """활성화/비고로 게시판 행 색상 결정. (가능=흰, 수동=노랑, 불가=빨강)"""
+    act = str(active or "Y").strip().upper()
+    note = str(note or "")
+    if act == "Y":
+        return COLOR_ACTIVE
+    if "로그인우회" not in note and any(k in note for k in _MANUAL_NOTE_KW):
+        return COLOR_MANUAL
+    return COLOR_INACTIVE
+
 
 # ─────────────────────────────────────────────
 # 게시판 1건 추가/수정 팝업
@@ -539,16 +571,19 @@ class BoardManageDialog(QDialog):
             "font-size:14px; font-weight:bold; color:#1a3c6e; padding:4px 0;")
         rl.addWidget(self.agency_label)
 
-        self.board_table = QTableWidget(0, 3)
-        self.board_table.setHorizontalHeaderLabels(["게시판명", "URL", "페이지파라미터"])
+        self.board_table = QTableWidget(0, 4)
+        self.board_table.setHorizontalHeaderLabels(
+            ["게시판명", "URL", "페이지파라미터", "활성화"])
         self.board_table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers)
         self.board_table.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
-        self.board_table.setAlternatingRowColors(True)
+        self.board_table.setAlternatingRowColors(False)  # 행 색상(활성화)이 보이도록
         self.board_table.verticalHeader().setVisible(False)
         self.board_table.horizontalHeader().setSectionResizeMode(
             0, QHeaderView.ResizeMode.ResizeToContents)
         self.board_table.horizontalHeader().setSectionResizeMode(
             1, QHeaderView.ResizeMode.Stretch)
+        self.board_table.horizontalHeader().setSectionResizeMode(
+            3, QHeaderView.ResizeMode.ResizeToContents)
         self.board_table.itemDoubleClicked.connect(lambda _: self._on_edit())
         rl.addWidget(self.board_table)
 
@@ -557,10 +592,12 @@ class BoardManageDialog(QDialog):
         self.btn_add  = QPushButton("+ 게시판 추가")
         self.btn_edit = QPushButton("수정")
         self.btn_del  = QPushButton("삭제")
+        self.btn_active = QPushButton("활성화 ON/OFF")
         self.btn_refind = QPushButton("AI 자동재탐색")
         for btn, color in [(self.btn_add, "#2E7D32"),
                            (self.btn_edit, "#1565C0"),
                            (self.btn_del,  "#C62828"),
+                           (self.btn_active, "#00838F"),
                            (self.btn_refind, "#6A1B9A")]:
             btn.setStyleSheet(
                 f"background:{color}; color:#fff; font-weight:600;"
@@ -568,15 +605,18 @@ class BoardManageDialog(QDialog):
         self.btn_add.clicked.connect(self._on_add)
         self.btn_edit.clicked.connect(self._on_edit)
         self.btn_del.clicked.connect(self._on_delete)
+        self.btn_active.clicked.connect(self._on_toggle_active)
         self.btn_refind.clicked.connect(self._on_refind)
         btn_row.addWidget(self.btn_add)
         btn_row.addWidget(self.btn_edit)
         btn_row.addWidget(self.btn_del)
+        btn_row.addWidget(self.btn_active)
         btn_row.addStretch()
         btn_row.addWidget(self.btn_refind)
         rl.addLayout(btn_row)
 
-        hint = QLabel("더블클릭으로 수정  |  Del 키로 삭제")
+        hint = QLabel("더블클릭으로 수정  |  Del 키로 삭제  |  "
+                      "행 색상 — 흰색:크롤링 가능 / 노랑:수동검색 필요 / 빨강:크롤링 불가(비활성)")
         hint.setStyleSheet("font-size:11px; color:#888;")
         rl.addWidget(hint)
 
@@ -691,6 +731,8 @@ class BoardManageDialog(QDialog):
             name  = self._ws.cell(r, _COL["게시판명"]+1).value or ""
             url   = self._ws.cell(r, _COL["게시판URL"]+1).value or ""
             param = self._ws.cell(r, _COL["페이지파라미터"]+1).value or ""
+            active = str(self._ws.cell(r, _COL["활성화"]+1).value or "Y").strip().upper()
+            note  = self._ws.cell(r, _COL["비고"]+1).value or ""
             if not name and not url:
                 continue
             tr = self.board_table.rowCount()
@@ -698,7 +740,14 @@ class BoardManageDialog(QDialog):
             self.board_table.setItem(tr, 0, QTableWidgetItem(str(name)))
             self.board_table.setItem(tr, 1, QTableWidgetItem(str(url)))
             self.board_table.setItem(tr, 2, QTableWidgetItem(str(param)))
+            act_item = QTableWidgetItem("ON" if active == "Y" else "OFF")
+            act_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
+            self.board_table.setItem(tr, 3, act_item)
             self.board_table.item(tr, 0).setData(Qt.ItemDataRole.UserRole, r)
+            # 행 색상: 활성화/비고 기준 (흰=가능, 노랑=수동, 빨강=불가)
+            color = _row_color_for(active, note)
+            for c in range(4):
+                self.board_table.item(tr, c).setBackground(QBrush(color))
 
     def _current_agency(self):
         item = self.agency_list.currentItem()
@@ -763,6 +812,38 @@ class BoardManageDialog(QDialog):
         self._refresh_agency_color(agency)
         self._load_board_table(agency)
         self._update_status()
+
+    def _on_toggle_active(self):
+        """선택 게시판의 활성화(Y/N)를 토글한다. 저장 시 sites.xlsx에 반영되어
+        다음 크롤링부터 자동 적용된다(활성화=Y만 수집)."""
+        agency  = self._current_agency()
+        sel_row = self.board_table.currentRow()
+        if not agency or sel_row < 0:
+            QMessageBox.information(self, "활성화", "활성/비활성 전환할 게시판을 선택하세요.")
+            return
+        xlsx_row = self.board_table.item(sel_row, 0).data(Qt.ItemDataRole.UserRole)
+        cur = str(self._ws.cell(xlsx_row, _COL["활성화"]+1).value or "Y").strip().upper()
+        new = "N" if cur == "Y" else "Y"
+        self._ws.cell(xlsx_row, _COL["활성화"]+1).value = new
+        self._apply_row_fill(xlsx_row, new)
+        self._dirty = True
+        self._load_board_table(agency)
+        self.board_table.selectRow(sel_row)
+        self._update_status()
+
+    def _apply_row_fill(self, xlsx_row, active):
+        """엑셀 행(1~7열) 배경색을 활성화/비고에 맞춰 칠한다(파일에도 반영)."""
+        try:
+            from openpyxl.styles import PatternFill
+        except ImportError:
+            return
+        note = self._ws.cell(xlsx_row, _COL["비고"]+1).value
+        color = _row_color_for(active, note)
+        hexrgb = color.name().replace("#", "").upper()
+        fill = PatternFill(fill_type=None) if hexrgb in ("FFFFFF", "FFF") \
+            else PatternFill("solid", fgColor=hexrgb)
+        for c in range(1, 8):
+            self._ws.cell(xlsx_row, c).fill = fill
 
     def keyPressEvent(self, event):
         if event.key() == Qt.Key.Key_Delete:
